@@ -1,0 +1,60 @@
+{
+  "name": "ctrf-converter",
+  "version": "1.0.0",
+  "description": "Test report files to CTRF JSON converter",
+  "homepage": "https://github.com/agracio/ctrf-converter#readme",
+  "bugs": {
+    "url": "https://github.com/agracio/ctrf-converter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agracio/ctrf-converter.git"
+  },
+  "license": "MIT",
+  "author": "agracio",
+  "type": "commonjs",
+  "main": "./lib/converter.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && jest --coverage"
+  },
+    "engines": {
+    "node": ">= 18"
+  },
+  "keywords": [
+    "JUnit",
+    "NUnit",
+    "xUnit",
+    "xUnit.net",
+    "TRX",
+    "MSTest",
+    "dotnet",
+    "ctrf"
+  ],
+  "tags": [
+    "JUnit",
+    "NUnit",
+    "xUnit",
+    "xUnit.net",
+    "TRX",
+    "MSTest",
+    "dotnet",
+    "ctrf"
+  ],
+  "dependencies": {
+    "junit-converter": "^1.0.6",
+    "lodash": "^4.18.1",
+    "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.24",
+    "@types/node": "^25.9.1",
+    "jest": "^30.4.2",
+    "jest-junit": "^17.0.0",
+    "typescript": "^6.0.3"
+  },
+  "allowScripts": {
+    "ag-node-expat@2.4.6": true,
+    "unrs-resolver@1.12.2": true
+  }
+}
