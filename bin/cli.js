@@ -17,5 +17,5 @@ const argv = yargs(hideBin(process.argv))
     .parse();
 
 const options = (config(argv));
-convert.toFile(argv).then((options) => console.log(`Report created at '${options.reportDir}/'`));
+convert.toFile(argv).then((options) => console.log(`Report created at '${options.reportDir}/${options.reportFile}''`));
 

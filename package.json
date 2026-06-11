@@ -12,10 +12,9 @@
   },
   "license": "MIT",
   "author": "agracio",
-  "type": "commonjs",
   "main": "./lib/converter.js",
   "types": "index.d.ts",
-   "bin": {
+  "bin": {
     "ctrf-converter": "bin/cli.js"
   },
   "scripts": {
