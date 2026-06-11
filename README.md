@@ -24,6 +24,7 @@
 - Converts &lt;properties&gt; to CTRF `parameters`.
 - Converts &lt;system-out&gt; to CTRF `stdout`.
 - Converts &lt;system-err&gt; to CTRF `stderr`.
+- Converts &lt;skipped&gt; message to CTRF `stdout`.
 - Converts &lt;failure&gt; to CTRF `message` and `trace`.  
 
  ### Conversion process to JUnit
