@@ -13,55 +13,169 @@ declare module 'ctrf-converter'{
         saveIntermediateFiles?: boolean
     }
 
-    /**
-     * JUnit JSON structure from XML
-     */
-    interface TestSuites {
-        testsuites: Array<{
-            name?: string;
-            classname?: string;
-            tests: string | number;
-            failures: string | number;
-            errors?: string | number;
-            skipped: string | number;
-            disabled?: string | number;
-            assertions?: string | number;
-            time: string | number;
-            timestamp?: string;
-            testsuite: TestSuite[];
-        }>;
-    }
-
-    interface TestSuite {
-        name: string;
-        classname?: string;
-        file?: string;
-        tests: string | number;
-        passed?: string | number;
-        failures: string | number;
-        errors?: string | number;
-        skipped: string | number;
-        disabled?: string | number;
-        time: string | number;
+    interface CtrfReport {
+        reportFormat: "CTRF";
+        specVersion: `${number}.${number}.${number}`;
+        reportId?: string;
         timestamp?: string;
-        testcase: TestCase[];
+        generatedBy?: string;
+        results: Results;
+        insights?: RootInsights;
+        baseline?: Baseline;
+        extra?: Record<string, unknown>;
     }
 
-    interface TestCase {
+    interface Results {
+        tool: Tool;
+        summary: Summary;
+        tests: Test[];
+        environment?: Environment;
+        extra?: Record<string, unknown>;
+    }
+
+    interface Summary {
+        tests: number;
+        passed: number;
+        failed: number;
+        skipped: number;
+        pending: number;
+        other: number;
+        flaky?: number;
+        suites?: number;
+        start: number;
+        stop: number;
+        duration?: number;
+        extra?: Record<string, unknown>;
+    }
+
+    interface Test {
+        id?: string;
         name: string;
-        classname: string;
-        status: string;
-        time: string;
-        failure?: any;
-        error?: any;
-        properties?: any;
-        skipped?: any;
-        'system-out'?: any;
-        'system-err'?: any;
+        status: TestStatus;
+        duration: number;
+        start?: number;
+        stop?: number;
+        suite?: string[];
+        message?: string;
+        trace?: string;
+        snippet?: string;
+        line?: number;
+        ai?: string;
+        rawStatus?: string;
+        tags?: string[];
+        type?: string;
+        filePath?: string;
+        retries?: number;
+        retryAttempts?: RetryAttempt[];
+        flaky?: boolean;
+        stdout?: string[];
+        stderr?: string[];
+        threadId?: string;
+        attachments?: Attachment[];
+        browser?: string;
+        device?: string;
+        screenshot?: string;
+        parameters?: Record<string, unknown>;
+        steps?: Step[];
+        insights?: TestInsights;
+        extra?: Record<string, unknown>;
     }
 
+    interface Environment {
+        reportName?: string;
+        appName?: string;
+        appVersion?: string;
+        buildId?: string;
+        buildName?: string;
+        buildNumber?: number;
+        buildUrl?: string;
+        repositoryName?: string;
+        repositoryUrl?: string;
+        commit?: string;
+        branchName?: string;
+        osPlatform?: string;
+        osRelease?: string;
+        osVersion?: string;
+        testEnvironment?: string;
+        extra?: Record<string, unknown>;
+    }
+
+    interface Tool {
+        name: string;
+        version?: string;
+        extra?: Record<string, unknown>;
+    }
+
+    interface Step {
+        name: string;
+        status: TestStatus;
+        extra?: Record<string, unknown>;
+    }
+
+    interface Attachment {
+        name: string;
+        contentType: string;
+        path: string;
+        extra?: Record<string, unknown>;
+    }
+
+    interface RetryAttempt {
+        attempt: number;
+        status: TestStatus;
+        duration?: number;
+        message?: string;
+        trace?: string;
+        line?: number;
+        snippet?: string;
+        stdout?: string[];
+        stderr?: string[];
+        start?: number;
+        stop?: number;
+        attachments?: Attachment[];
+        extra?: Record<string, unknown>;
+    }
+
+    interface RootInsights {
+        runsAnalyzed?: number;
+        passRate?: InsightsMetric;
+        failRate?: InsightsMetric;
+        flakyRate?: InsightsMetric;
+        averageRunDuration?: InsightsMetric;
+        p95RunDuration?: InsightsMetric;
+        averageTestDuration?: InsightsMetric;
+        extra?: Record<string, unknown>;
+    }
+
+    interface TestInsights {
+        passRate?: InsightsMetric;
+        failRate?: InsightsMetric;
+        flakyRate?: InsightsMetric;
+        averageTestDuration?: InsightsMetric;
+        p95TestDuration?: InsightsMetric;
+        executedInRuns?: number;
+        extra?: Record<string, unknown>;
+    }
+
+    interface InsightsMetric {
+        current: number;
+        baseline: number;
+        change: number;
+    }
+
+    interface Baseline {
+        reportId: string;
+        source?: string;
+        timestamp?: string;
+        commit?: string;
+        buildName?: string;
+        buildNumber?: number;
+        buildUrl?: string;
+        extra?: Record<string, unknown>;
+    }
+
+    type TestStatus = "passed" | "failed" | "skipped" | "pending" | "other";
     /**
-     * Convert test report to JUnit XML and write to file async.
+     * Convert test report to CTRF JSON and write to file async.
      *
      * @param {TestReportConverterOptions} options
      * @return {Promise<void>}
@@ -69,18 +183,10 @@ declare module 'ctrf-converter'{
     function toFile(options: TestReportConverterOptions): Promise<void>;
 
     /**
-     * Convert test report to JUnit XML string.
+     * Convert test report to CTRF JSON and return as JSON object.
      *
      * @param {TestReportConverterOptions} options
-     * @return {Promise<string>}
+     * @return {Promise<CtrfReport>}
      */
-    function toString(options: TestReportConverterOptions): Promise<string>;
-
-    /**
-     * Convert test report to JUnit XML and parse as JSON object.
-     *
-     * @param {TestReportConverterOptions} options
-     * @return {Promise<object>}
-     */
-    function toJson(options: TestReportConverterOptions): Promise<TestSuites>;
+    function toJson(options: TestReportConverterOptions): Promise<CtrfReport>;
 }

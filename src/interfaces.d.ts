@@ -1,0 +1,75 @@
+/**
+ * Configuration options for test report conversion
+ */
+export interface ConverterOptions {
+    testFile: string;
+    testType: string;
+    reportDir: string;
+    reportPath: string;
+    reportFile: string;
+    junit?: boolean;
+    junitReportFile?: string;
+    splitByClassname?: boolean;
+    saveIntermediateFiles?: boolean;
+}
+/**
+ * User-provided options for converter
+ */
+export interface TestReportConverterOptions {
+    testFile: string;
+    testType: string;
+    reportDir?: string;
+    reportFilename?: string;
+    reportFile?: string;
+    junit?: boolean | string;
+    junitReportFile?: string;
+    saveIntermediateFiles?: boolean | string;
+    splitByClassname?: boolean | string;
+}
+
+/**
+ * JUnit JSON structure from XML
+ */
+export interface TestSuites {
+    testsuites: Array<{
+        name?: string;
+        classname?: string;
+        tests: string | number;
+        failures: string | number;
+        errors?: string | number;
+        skipped: string | number;
+        disabled?: string | number;
+        assertions?: string | number;
+        time: string | number;
+        timestamp?: string;
+        testsuite: TestSuite[];
+    }>;
+}
+
+export interface TestSuite {
+    name: string;
+    classname?: string;
+    file?: string;
+    tests: string | number;
+    passed?: string | number;
+    failures?: string | number;
+    errors?: string | number;
+    skipped: string | number;
+    disabled?: string | number;
+    time: string | number;
+    timestamp?: string;
+    testcase: TestCase[];
+}
+
+export interface TestCase {
+    name: string;
+    classname: string;
+    status: string;
+    time: string;
+    failure?: any;
+    error?: any;
+    properties?: any[] | any | null;
+    skipped?: any;
+    'system-out'?: any[];
+    'system-err'?: any[];
+}
