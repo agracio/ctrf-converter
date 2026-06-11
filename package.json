@@ -1,6 +1,6 @@
 {
   "name": "ctrf-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test report files to CTRF JSON converter",
   "homepage": "https://github.com/agracio/ctrf-converter#readme",
   "bugs": {
