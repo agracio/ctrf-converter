@@ -26,6 +26,8 @@ async function compare(file){
   let createdReport = fs.readFileSync(path.join(outDir, fileName), 'utf8')
     .replaceAll('\r', '')
     .replace(/"timestamp":.*$/gm, `"timestamp":"${date.toISOString()}"`)
+    .replace(/"generatedBy":.*$/gm, `"generatedBy":"ctrf-converter v0.0.0"`)
+    .replace(/"version":.*$/gm, `"version":"0.0.0"`)
     .replace(/"start":.*$/gm, `"start":"${date.getTime()}"`)
     .replace(/"stop":.*$/gm, `"stop":"${date.getTime() + 1000}"`)
    ;
@@ -33,6 +35,8 @@ async function compare(file){
   let report = fs.readFileSync(path.join(resultDir, fileName), 'utf8')
     .replaceAll('\r', '')
     .replace(/"timestamp":.*$/gm, `"timestamp":"${date.toISOString()}"`)
+    .replace(/"generatedBy":.*$/gm, `"generatedBy":"ctrf-converter v0.0.0"`)
+    .replace(/"version":.*$/gm, `"version":"0.0.0"`)
     .replace(/"start":.*$/gm, `"start":"${date.getTime()}"`)
     .replace(/"stop":.*$/gm, `"stop":"${date.getTime() + 1000}"`)
    ;
