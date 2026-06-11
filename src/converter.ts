@@ -10,7 +10,7 @@ import { toJson as junitToJson, toFile as junitToFile, TestSuites as JunitReport
  */
 export class Converter {
 
-    private async convert(options: ConverterOptions): Promise<Partial<CtrfReport> | null> {
+    private async convert(options: ConverterOptions): Promise<Partial<CtrfReport>> {
 
         const junitConvertOptions = {
             testFile: options.testFile,
@@ -161,11 +161,12 @@ export class Converter {
      * @param options Converter configuration
      * @throws {Error} If conversion or file writing fails
      */
-    async toFile(options: TestReportConverterOptions): Promise<void> {
+    async toFile(options: TestReportConverterOptions): Promise<ConverterOptions> {
         const config = ConfigService.config(options);
 
         const result = await this.convert(config);
         fs.writeFileSync(path.join(config.reportDir, config.reportFile), JSON.stringify(result, null, 2), 'utf8');
+        return config;
     }
 
     /**
@@ -174,7 +175,7 @@ export class Converter {
      * @returns {Promise<TestSuites>} Async parsed JSON object
      * @throws {Error} If conversion or JSON parsing fails
      */
-    async toJson(options: TestReportConverterOptions): Promise<Partial<CtrfReport> | null> {
+    async toJson(options: TestReportConverterOptions): Promise<Partial<CtrfReport>> {
         const config = ConfigService.config(options);
         return this.convert(config);
     }
@@ -184,8 +185,8 @@ export class Converter {
 const converter = new Converter();
 
 // Export instance methods for backward compatibility
-export const toFile = (options: TestReportConverterOptions): Promise<void> => converter.toFile(options);
-export const toJson = (options: TestReportConverterOptions): Promise<Partial<CtrfReport> | null> => converter.toJson(options);
+export const toFile = (options: TestReportConverterOptions): Promise<ConverterOptions> => converter.toFile(options);
+export const toJson = (options: TestReportConverterOptions): Promise<Partial<CtrfReport>> => converter.toJson(options);
 
 // Default export for CommonJS consumers
 export default {

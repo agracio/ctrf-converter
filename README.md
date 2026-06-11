@@ -1,5 +1,7 @@
 ## Test report files to CTRF JSON converter
 
+[![Actions Status][github-img]][github-url]
+
 ### Overview
 
 - Convert test report files to CTRF JSON format.
@@ -86,6 +88,16 @@ ctrf-converter --testFile mytests/nunit.xml --testType nunit
   This is useful for test runners that generate tests under a single test suite such as `dotnet test` when using JUnit loggers.  
   Should only be set to true if test report file contains single test suite.
   TRX report files are always split by classname, so this option is ignored for TRX files.  
+
+#### Supported `testType` options.
+
+| `testType` | File Type                  |
+|:-----------|:---------------------------|
+| JUnit      | JUnit/xUnit XML            |
+| NUnit      | NUnit v3+ XML              |
+| xUnit      | xUnit.net v2+ XML          |
+| TRX        | MSTest TRX (`dotnet test`) |
+
 
 [github-img]: https://github.com/agracio/ctrf-converter/workflows/Test/badge.svg
 [github-url]: https://github.com/agracio/ctrf-converter/actions/workflows/main.yml

@@ -15,6 +15,9 @@
   "type": "commonjs",
   "main": "./lib/converter.js",
   "types": "index.d.ts",
+   "bin": {
+    "ctrf-converter": "bin/cli.js"
+  },
   "scripts": {
     "build": "tsc",
     "test": "npm run build && jest --coverage"
