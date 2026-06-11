@@ -1,6 +1,6 @@
 {
   "name": "ctrf-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Test report files to CTRF JSON converter",
   "homepage": "https://github.com/agracio/ctrf-converter#readme",
   "bugs": {
@@ -46,11 +46,9 @@
   ],
   "dependencies": {
     "junit-converter": "^1.0.7",
-    "lodash": "^4.18.1",
     "yargs": "^18.0.0"
   },
   "devDependencies": {
-    "@types/lodash": "^4.17.24",
     "@types/node": "^25.9.3",
     "ajv": "^8.20.0",
     "jest": "^30.4.2",
