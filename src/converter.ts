@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { ConfigService } from './config.js';
-import { TestReportConverterOptions, TestSuites, ConverterOptions } from './interfaces.js';
+import { TestReportConverterOptions, ConverterOptions } from './interfaces.js';
 import { CtrfReport, Summary, Tool, Test} from './ctrf.js';
 import { toJson as junitToJson, toFile as junitToFile, TestSuites as JunitReport } from 'junit-converter';
 
@@ -68,7 +68,7 @@ export class Converter {
                 let test: Test = {
                     name: testcase.name,
                     status: status,
-                    duration: Number(testcase.time) * 1000,
+                    duration: Math.ceil(Number(testcase.time) * 1000),
                     suite: [testsuite.name],
                 };
 
@@ -106,17 +106,13 @@ export class Converter {
                 }
 
                 if(testcase.skipped && testcase.skipped.length !== 0 && testcase.skipped[0].message) {
-                    //console.log(`Test '${test.name}' was skipped with message: ${testcase.skipped[0].message}`);
                     if(test.stdout && test.stdout.length > 0) {
                         let message = test.stdout[0].replaceAll('\n', ' ').toLowerCase();
-                        // console.log(`Test '${test.name}' skipped message: ${testcase.skipped[0].message.toLowerCase()}`);
-                        // console.log(`Test '${test.name}' stdout message: ${message}`);
-                        // console.log(message == testcase.skipped[0].message.toLowerCase())
                         if(message != testcase.skipped[0].message.toLowerCase()) {
                             test.stdout.push(testcase.skipped[0].message);
-                            if(testcase.skipped[0].$t) {
-                                test.stdout.push(testcase.skipped[0].$t);
-                            }
+                        }
+                        if(testcase.skipped[0].$t) {
+                            test.stdout.push(testcase.skipped[0].$t);
                         }
                     }
                     else{
@@ -142,7 +138,7 @@ export class Converter {
             start: timestamp.getTime(),
             stop: Math.ceil(timestamp.getTime() + duration),
             suites: Number(testsuites.testsuite.length),
-            duration: duration,
+            duration: Math.ceil(duration),
         };
 
         result = {
@@ -157,7 +153,6 @@ export class Converter {
             },
         };
 
-        //console.log(JSON.stringify(result, null, 2));
         return result;
     }
 

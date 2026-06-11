@@ -1,0 +1,194 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2019-06-06T10:58:16.000Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 329,
+      "passed": 316,
+      "failed": 13,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1559818696000,
+      "stop": 1559818704004,
+      "suites": 4,
+      "duration": 8004
+    },
+    "tests": [
+      {
+        "name": "OpenQuestion_WithoutLabel_NullValue_MissingValueReturned",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.OpenQuestionExportColumnTests"
+        ]
+      },
+      {
+        "name": "OpenQuestion_WithoutLabel_OpenValueReturned",
+        "status": "passed",
+        "duration": 48,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.OpenQuestionExportColumnTests"
+        ]
+      },
+      {
+        "name": "OpenQuestion_WithAnswerLabel_AnswerLabelReturned",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.OpenQuestionExportColumnTests"
+        ]
+      },
+      {
+        "name": "OpenQuestion_GivenEmptyValue_EmptySettingReturned",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.OpenQuestionExportColumnTests"
+        ]
+      },
+      {
+        "name": "OpenQuestion_WithLabel_ColumnNameIsLabel",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.OpenQuestionExportColumnTests"
+        ]
+      },
+      {
+        "name": "OpenQuestion_NotGiven_MissingValueReturned",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.OpenQuestionExportColumnTests"
+        ]
+      },
+      {
+        "name": "OpenQuestion_WithoutLabel_CorrectColumnName",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.OpenQuestionExportColumnTests"
+        ]
+      },
+      {
+        "name": "PointDistributionQuestion_WithAnswerLabels_GetValues",
+        "status": "passed",
+        "duration": 26,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.PointDistributionExportTests"
+        ]
+      },
+      {
+        "name": "PointDistributionQuestion_GetColumnNames",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.PointDistributionExportTests"
+        ]
+      },
+      {
+        "name": "PointDistributionQuestion_GetValues",
+        "status": "passed",
+        "duration": 185,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.PointDistributionExportTests"
+        ]
+      },
+      {
+        "name": "PointDistributionQuestion_WithQuestionLabel_GetColumnNames",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.PointDistributionExportTests"
+        ]
+      },
+      {
+        "name": "RankingQuestionWithoutLabels_GetColumnNames",
+        "status": "passed",
+        "duration": 25,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.RankingQuestionExportColumnTests"
+        ]
+      },
+      {
+        "name": "RankingQuestionWithLabels_GetColumnNames",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.RankingQuestionExportColumnTests"
+        ]
+      },
+      {
+        "name": "RankingQuestion_WithAnswerLabels_GetValues",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.RankingQuestionExportColumnTests"
+        ]
+      },
+      {
+        "name": "RankingQuestion_GetValues",
+        "status": "passed",
+        "duration": 183,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.RankingQuestionExportColumnTests"
+        ]
+      },
+      {
+        "name": "GetRuntimeType(dbType: \"nvarchar(max)\", type: typeof(string))",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.ResultColumnTests"
+        ]
+      },
+      {
+        "name": "GetRuntimeType(dbType: \"datetime\", type: typeof(System.DateTime))",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.ResultColumnTests"
+        ]
+      },
+      {
+        "name": "GetRuntimeType(dbType: \"varchar(50)\", type: typeof(string))",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.ResultColumnTests"
+        ]
+      },
+      {
+        "name": "GetRuntimeType(dbType: \"int\", type: typeof(int))",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.ResultColumnTests"
+        ]
+      },
+      {
+        "name": "CreateColumnDefinition",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.ResultColumnTests"
+        ]
+      },
+      {
+        "name": "ResultColumnIsSameAs",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MWM2.LiveResults.Tests.Schema.Export.ResultColumnTests"
+        ]
+      }
+    ]
+  }
+}

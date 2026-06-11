@@ -1,0 +1,107 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2026-06-11T19:33:42.356Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 9,
+      "passed": 5,
+      "failed": 3,
+      "skipped": 1,
+      "pending": 0,
+      "other": 0,
+      "start": 1781206422356,
+      "stop": 1781206424395,
+      "suites": 2,
+      "duration": 2039
+    },
+    "tests": [
+      {
+        "name": "Failing_test",
+        "status": "failed",
+        "duration": 1,
+        "suite": [
+          "MsTestSample.DataDriven"
+        ],
+        "message": "Assert.Fail failed. Failing for demo purposes",
+        "trace": "at MsTestSample.DataDriven.Failing_test() in C:\\projects\\trx2junit\\samples\\MsTestSample\\DataDriven.cs:line 25\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+      },
+      {
+        "name": "Slow_test",
+        "status": "passed",
+        "duration": 1009,
+        "suite": [
+          "MsTestSample.DataDriven"
+        ]
+      },
+      {
+        "name": "Two_pass_one_fails (0)",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "MsTestSample.DataDriven"
+        ]
+      },
+      {
+        "name": "Two_pass_one_fails (1)",
+        "status": "failed",
+        "duration": 16,
+        "suite": [
+          "MsTestSample.DataDriven"
+        ],
+        "message": "Assert.Fail failed. Failing for demo purposes",
+        "trace": "at MsTestSample.DataDriven.Two_pass_one_fails(Int32 arg) in C:\\projects\\trx2junit\\samples\\MsTestSample\\DataDriven.cs:line 16\n   at InvokeStub_DataDriven.Two_pass_one_fails(Object, Span`1)\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)"
+      },
+      {
+        "name": "Two_pass_one_fails (2)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MsTestSample.DataDriven"
+        ]
+      },
+      {
+        "name": "Failing_test",
+        "status": "failed",
+        "duration": 1,
+        "suite": [
+          "MsTestSample.SimpleTests"
+        ],
+        "message": "Assert.Fail failed. Failing for demo purposes",
+        "trace": "at MsTestSample.SimpleTests.Failing_test() in C:\\projects\\trx2junit\\samples\\MsTestSample\\SimpleTests.cs:line 20\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+      },
+      {
+        "name": "Ignored_test",
+        "status": "skipped",
+        "duration": 0,
+        "suite": [
+          "MsTestSample.SimpleTests"
+        ],
+        "stdout": [
+          "Ignoring for testing ;-)"
+        ]
+      },
+      {
+        "name": "Passing_test",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MsTestSample.SimpleTests"
+        ]
+      },
+      {
+        "name": "Slow_test",
+        "status": "passed",
+        "duration": 1013,
+        "suite": [
+          "MsTestSample.SimpleTests"
+        ]
+      }
+    ]
+  }
+}

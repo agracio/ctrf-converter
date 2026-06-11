@@ -1,0 +1,70 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2026-06-11T19:33:42.283Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 5,
+      "passed": 3,
+      "failed": 2,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1781206422283,
+      "stop": 1781206423297,
+      "suites": 1,
+      "duration": 1014
+    },
+    "tests": [
+      {
+        "name": "Failing_test",
+        "status": "failed",
+        "duration": 3,
+        "suite": [
+          "XUnitSample.DataDriven"
+        ],
+        "message": "Failing for demo purposes Expected: True Actual:   False",
+        "trace": "at XUnitSample.DataDriven.Failing_test() in D:\\Work-Git\\github\\Mini\\trx2junit\\samples\\XUnitSample\\DataDriven.cs:line 26"
+      },
+      {
+        "name": "Slow_test",
+        "status": "passed",
+        "duration": 1007,
+        "suite": [
+          "XUnitSample.DataDriven"
+        ]
+      },
+      {
+        "name": "Two_pass_one_fails(arg: 0)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "XUnitSample.DataDriven"
+        ]
+      },
+      {
+        "name": "Two_pass_one_fails(arg: 1)",
+        "status": "failed",
+        "duration": 1,
+        "suite": [
+          "XUnitSample.DataDriven"
+        ],
+        "message": "Failing for demo purposes Expected: True Actual:   False",
+        "trace": "at XUnitSample.DataDriven.Two_pass_one_fails(Int32 arg) in D:\\Work-Git\\github\\Mini\\trx2junit\\samples\\XUnitSample\\DataDriven.cs:line 17"
+      },
+      {
+        "name": "Two_pass_one_fails(arg: 2)",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "XUnitSample.DataDriven"
+        ]
+      }
+    ]
+  }
+}

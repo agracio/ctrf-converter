@@ -1,0 +1,63 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2026-06-11T19:33:42.262Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 4,
+      "passed": 2,
+      "failed": 1,
+      "skipped": 1,
+      "pending": 0,
+      "other": 0,
+      "start": 1781206422262,
+      "stop": 1781206423290,
+      "suites": 1,
+      "duration": 1028
+    },
+    "tests": [
+      {
+        "name": "Failing_test",
+        "status": "failed",
+        "duration": 6,
+        "suite": [
+          "XUnitSample.SimpleTests"
+        ],
+        "message": "Failing for demo purposes Expected: True Actual:   False",
+        "trace": "at XUnitSample.SimpleTests.Failing_test() in D:\\Work-Git\\github\\Mini\\trx2junit\\samples\\XUnitSample\\SimpleTests.cs:line 20"
+      },
+      {
+        "name": "Ignored_test",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "XUnitSample.SimpleTests"
+        ],
+        "stdout": [
+          "Ignoring for testing ;-)"
+        ]
+      },
+      {
+        "name": "Passing_test",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "XUnitSample.SimpleTests"
+        ]
+      },
+      {
+        "name": "Slow_test",
+        "status": "passed",
+        "duration": 1019,
+        "suite": [
+          "XUnitSample.SimpleTests"
+        ]
+      }
+    ]
+  }
+}

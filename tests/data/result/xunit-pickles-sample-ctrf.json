@@ -1,0 +1,941 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2018-08-29T13:10:40.000Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 71,
+      "passed": 40,
+      "failed": 30,
+      "skipped": 1,
+      "pending": 0,
+      "other": 0,
+      "start": 1535548240000,
+      "stop": 1535548241513,
+      "suites": 8,
+      "duration": 1513
+    },
+    "tests": [
+      {
+        "name": "NotAutomatedScenario2",
+        "status": "failed",
+        "duration": 8,
+        "suite": [
+          "Pickles.TestHarness.xunit2.NotAutomatedAtAllFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Not Automated At All",
+          "Description": "Not automated scenario 2"
+        },
+        "message": "TechTalk.SpecFlow.SpecFlowException : Test pending: No matching step definition found for one or more steps.\\r\\nusing System;\\r\\nusing TechTalk.SpecFlow;\\r\\n\\r\\nnamespace MyNamespace\\r\\n{\\r\\n    [Binding]\\r\\n    public class StepDefinitions\\r\\n    {\\r\\n        [Given(@\"unimplemented step\")]\\r\\n        public void GivenUnimplementedStep()\\r\\n        {\\r\\n            ScenarioContext.Current.Pending();\\r\\n        }\\r\\n        \\r\\n        [When(@\"unimplemented step\")]\\r\\n        public void WhenUnimplementedStep()\\r\\n        {\\r\\n            ScenarioContext.Current.Pending();\\r\\n        }\\r\\n        \\r\\n        [Then(@\"unimplemented step\")]\\r\\n        public void ThenUnimplementedStep()\\r\\n        {\\r\\n            ScenarioContext.Current.Pending();\\r\\n        }\\r\\n    }\\r\\n}\\r\\n",
+        "trace": "at TechTalk.SpecFlow.UnitTestProvider.XUnitRuntimeProvider.TestPending(String message)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.NotAutomatedAtAllFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.NotAutomatedAtAllFeature.NotAutomatedScenario2() in C:\\Git\\pickles\\test-harness\\xunit2\\NotAutomatedAtAll.feature:line 14"
+      },
+      {
+        "name": "NotAutomatedScenario3",
+        "status": "failed",
+        "duration": 8,
+        "suite": [
+          "Pickles.TestHarness.xunit2.NotAutomatedAtAllFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Not Automated At All",
+          "Description": "Not automated scenario 3"
+        },
+        "message": "TechTalk.SpecFlow.SpecFlowException : Test pending: No matching step definition found for one or more steps.\\r\\nusing System;\\r\\nusing TechTalk.SpecFlow;\\r\\n\\r\\nnamespace MyNamespace\\r\\n{\\r\\n    [Binding]\\r\\n    public class StepDefinitions\\r\\n    {\\r\\n        [Given(@\"unimplemented step\")]\\r\\n        public void GivenUnimplementedStep()\\r\\n        {\\r\\n            ScenarioContext.Current.Pending();\\r\\n        }\\r\\n        \\r\\n        [When(@\"unimplemented step\")]\\r\\n        public void WhenUnimplementedStep()\\r\\n        {\\r\\n            ScenarioContext.Current.Pending();\\r\\n        }\\r\\n        \\r\\n        [Then(@\"unimplemented step\")]\\r\\n        public void ThenUnimplementedStep()\\r\\n        {\\r\\n            ScenarioContext.Current.Pending();\\r\\n        }\\r\\n    }\\r\\n}\\r\\n",
+        "trace": "at TechTalk.SpecFlow.UnitTestProvider.XUnitRuntimeProvider.TestPending(String message)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.NotAutomatedAtAllFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.NotAutomatedAtAllFeature.NotAutomatedScenario3() in C:\\Git\\pickles\\test-harness\\xunit2\\NotAutomatedAtAll.feature:line 19"
+      },
+      {
+        "name": "NotAutomatedScenario1",
+        "status": "failed",
+        "duration": 9,
+        "suite": [
+          "Pickles.TestHarness.xunit2.NotAutomatedAtAllFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Not Automated At All",
+          "Description": "Not automated scenario 1"
+        },
+        "message": "TechTalk.SpecFlow.SpecFlowException : Test pending: No matching step definition found for one or more steps.\\r\\nusing System;\\r\\nusing TechTalk.SpecFlow;\\r\\n\\r\\nnamespace MyNamespace\\r\\n{\\r\\n    [Binding]\\r\\n    public class StepDefinitions\\r\\n    {\\r\\n        [Given(@\"unimplemented step\")]\\r\\n        public void GivenUnimplementedStep()\\r\\n        {\\r\\n            ScenarioContext.Current.Pending();\\r\\n        }\\r\\n        \\r\\n        [When(@\"unimplemented step\")]\\r\\n        public void WhenUnimplementedStep()\\r\\n        {\\r\\n            ScenarioContext.Current.Pending();\\r\\n        }\\r\\n        \\r\\n        [Then(@\"unimplemented step\")]\\r\\n        public void ThenUnimplementedStep()\\r\\n        {\\r\\n            ScenarioContext.Current.Pending();\\r\\n        }\\r\\n    }\\r\\n}\\r\\n",
+        "trace": "at TechTalk.SpecFlow.UnitTestProvider.XUnitRuntimeProvider.TestPending(String message)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.NotAutomatedAtAllFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.NotAutomatedAtAllFeature.NotAutomatedScenario1() in C:\\Git\\pickles\\test-harness\\xunit2\\NotAutomatedAtAll.feature:line 9"
+      },
+      {
+        "name": "FailingFeaturePassingScenario",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.MinimalFeatures.FailingFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Failing",
+          "Description": "Failing Feature Passing Scenario"
+        }
+      },
+      {
+        "name": "FailingFeatureFailingScenario",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.MinimalFeatures.FailingFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Failing",
+          "Description": "Failing Feature Failing Scenario"
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.MinimalFeatures.MinimalSteps.ThenFailingStep() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MinimalFeatures\\MinimalSteps.cs:line 24\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.MinimalFeatures.FailingFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.MinimalFeatures.FailingFeature.FailingFeatureFailingScenario() in C:\\Git\\pickles\\test-harness\\xunit2\\Minimal Features\\Failing.feature:line 10"
+      },
+      {
+        "name": "FailingFeatureInconclusiveScenario",
+        "status": "failed",
+        "duration": 10,
+        "suite": [
+          "Pickles.TestHarness.xunit2.MinimalFeatures.FailingFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Failing",
+          "Description": "Failing Feature Inconclusive Scenario"
+        },
+        "message": "TechTalk.SpecFlow.SpecFlowException : Test pending: One or more step definitions are not implemented yet.\\r\\n  MinimalSteps.ThenInconclusiveStep()",
+        "trace": "at TechTalk.SpecFlow.UnitTestProvider.XUnitRuntimeProvider.TestPending(String message)\n   at Pickles.TestHarness.xunit2.MinimalFeatures.FailingFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.MinimalFeatures.FailingFeature.FailingFeatureInconclusiveScenario() in C:\\Git\\pickles\\test-harness\\xunit2\\Minimal Features\\Failing.feature:line 7"
+      },
+      {
+        "name": "ThisIsAScenarioOutlineWhereAllScenariosPass(result: \"pass_1\", exampleTags: [])",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "This is a scenario outline where all scenarios pass"
+        }
+      },
+      {
+        "name": "ThisIsAScenarioOutlineWhereAllScenariosPass(result: \"pass_2\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "This is a scenario outline where all scenarios pass"
+        }
+      },
+      {
+        "name": "ThisIsAScenarioOutlineWhereAllScenariosPass(result: \"pass_3\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "This is a scenario outline where all scenarios pass"
+        }
+      },
+      {
+        "name": "ThisIsAScenarioOutlineWhereOneScenarioFails(result: \"pass_1\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "This is a scenario outline where one scenario fails"
+        }
+      },
+      {
+        "name": "ThisIsAScenarioOutlineWhereOneScenarioFails(result: \"pass_2\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "This is a scenario outline where one scenario fails"
+        }
+      },
+      {
+        "name": "ThisIsAScenarioOutlineWhereOneScenarioFails(result: \"fail_1\", exampleTags: [])",
+        "status": "failed",
+        "duration": 5,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "This is a scenario outline where one scenario fails"
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.ScenarioOutlineSteps.ThenTheScenarioWill(String result) in C:\\Git\\pickles\\test-harness\\AutomationLayer\\ScenarioOutlineSteps.cs:line 19\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ThisIsAScenarioOutlineWhereOneScenarioFails(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 34"
+      },
+      {
+        "name": "DealCorrectlyWithOverlongExampleValues(value1: \"Please enter a valid two letter country code (e.g.\"..., value2: \"This is just a very very very veery long error mes\"..., exampleTags: [])",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal correctly with overlong example values"
+        }
+      },
+      {
+        "name": "ThisIsAScenarioOutlineWhereOneScenarioIsInconclusive(result: \"pass_1\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "This is a scenario outline where one scenario is inconclusive"
+        }
+      },
+      {
+        "name": "ThisIsAScenarioOutlineWhereOneScenarioIsInconclusive(result: \"pass_2\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "This is a scenario outline where one scenario is inconclusive"
+        }
+      },
+      {
+        "name": "ThisIsAScenarioOutlineWhereOneScenarioIsInconclusive(result: \"inconclusive_1\", exampleTags: [])",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "This is a scenario outline where one scenario is inconclusive"
+        },
+        "message": "TechTalk.SpecFlow.SpecFlowException : Test pending: One or more step definitions are not implemented yet.\\r\\n  ScenarioOutlineSteps.ThenTheScenarioWill(\"inconclusive_1\")",
+        "trace": "at TechTalk.SpecFlow.UnitTestProvider.XUnitRuntimeProvider.TestPending(String message)\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ThisIsAScenarioOutlineWhereOneScenarioIsInconclusive(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 21"
+      },
+      {
+        "name": "AndWeCanGoTotallyBonkersWithMultipleExampleSections_(result: \"pass_1\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "And we can go totally bonkers with multiple example sections."
+        }
+      },
+      {
+        "name": "AndWeCanGoTotallyBonkersWithMultipleExampleSections_(result: \"pass_2\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "And we can go totally bonkers with multiple example sections."
+        }
+      },
+      {
+        "name": "AndWeCanGoTotallyBonkersWithMultipleExampleSections_(result: \"inconclusive_1\", exampleTags: [])",
+        "status": "failed",
+        "duration": 4,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "And we can go totally bonkers with multiple example sections."
+        },
+        "message": "TechTalk.SpecFlow.SpecFlowException : Test pending: One or more step definitions are not implemented yet.\\r\\n  ScenarioOutlineSteps.ThenTheScenarioWill(\"inconclusive_1\")",
+        "trace": "at TechTalk.SpecFlow.UnitTestProvider.XUnitRuntimeProvider.TestPending(String message)\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.AndWeCanGoTotallyBonkersWithMultipleExampleSections_(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 45"
+      },
+      {
+        "name": "AndWeCanGoTotallyBonkersWithMultipleExampleSections_(result: \"inconclusive_2\", exampleTags: [])",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "And we can go totally bonkers with multiple example sections."
+        },
+        "message": "TechTalk.SpecFlow.SpecFlowException : Test pending: One or more step definitions are not implemented yet.\\r\\n  ScenarioOutlineSteps.ThenTheScenarioWill(\"inconclusive_2\")",
+        "trace": "at TechTalk.SpecFlow.UnitTestProvider.XUnitRuntimeProvider.TestPending(String message)\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.AndWeCanGoTotallyBonkersWithMultipleExampleSections_(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 45"
+      },
+      {
+        "name": "AndWeCanGoTotallyBonkersWithMultipleExampleSections_(result: \"fail_1\", exampleTags: [])",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "And we can go totally bonkers with multiple example sections."
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.ScenarioOutlineSteps.ThenTheScenarioWill(String result) in C:\\Git\\pickles\\test-harness\\AutomationLayer\\ScenarioOutlineSteps.cs:line 19\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.AndWeCanGoTotallyBonkersWithMultipleExampleSections_(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 45"
+      },
+      {
+        "name": "AndWeCanGoTotallyBonkersWithMultipleExampleSections_(result: \"fail_2\", exampleTags: [])",
+        "status": "failed",
+        "duration": 3,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "And we can go totally bonkers with multiple example sections."
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.ScenarioOutlineSteps.ThenTheScenarioWill(String result) in C:\\Git\\pickles\\test-harness\\AutomationLayer\\ScenarioOutlineSteps.cs:line 19\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.AndWeCanGoTotallyBonkersWithMultipleExampleSections_(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 45"
+      },
+      {
+        "name": "DealWithDuplicateValues(result: \"pass\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with duplicate values"
+        }
+      },
+      {
+        "name": "DealWithDuplicateValues(result: \"fail\", exampleTags: [])",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with duplicate values"
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.ScenarioOutlineSteps.ThenTheScenarioWill(String result) in C:\\Git\\pickles\\test-harness\\AutomationLayer\\ScenarioOutlineSteps.cs:line 19\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.DealWithDuplicateValues(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 91"
+      },
+      {
+        "name": "DealWithDuplicateValues(result: \"inconclusive\", exampleTags: [])",
+        "status": "failed",
+        "duration": 4,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with duplicate values"
+        },
+        "message": "TechTalk.SpecFlow.SpecFlowException : Test pending: One or more step definitions are not implemented yet.\\r\\n  ScenarioOutlineSteps.ThenTheScenarioWill(\"inconclusive\")",
+        "trace": "at TechTalk.SpecFlow.UnitTestProvider.XUnitRuntimeProvider.TestPending(String message)\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.DealWithDuplicateValues(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 91"
+      },
+      {
+        "name": "DealWithDuplicateValues(result: \"pass\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with duplicate values"
+        }
+      },
+      {
+        "name": "DealWithDuplicateValues(result: \"fail\", exampleTags: [])",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with duplicate values"
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.ScenarioOutlineSteps.ThenTheScenarioWill(String result) in C:\\Git\\pickles\\test-harness\\AutomationLayer\\ScenarioOutlineSteps.cs:line 19\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.DealWithDuplicateValues(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 91"
+      },
+      {
+        "name": "DealCorrectlyWithParenthesisInTheExamples(overlyDescriptiveField: \"This is a description (and more)\", exampleTags: [])",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal correctly with parenthesis in the examples"
+        }
+      },
+      {
+        "name": "DealCorrectlyWithBackslashesInTheExamples(filePath: \"c:\\Temp\\\", exampleTags: [])",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal correctly with backslashes in the examples"
+        }
+      },
+      {
+        "name": "DealWithMultipleNamedExampleSectionsWithDuplicateValues(result: \"pass\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple named example sections with duplicate values"
+        }
+      },
+      {
+        "name": "DealWithMultipleNamedExampleSectionsWithDuplicateValues(result: \"fail\", exampleTags: [])",
+        "status": "failed",
+        "duration": 4,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple named example sections with duplicate values"
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.ScenarioOutlineSteps.ThenTheScenarioWill(String result) in C:\\Git\\pickles\\test-harness\\AutomationLayer\\ScenarioOutlineSteps.cs:line 19\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.DealWithMultipleNamedExampleSectionsWithDuplicateValues(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 130"
+      },
+      {
+        "name": "DealWithMultipleNamedExampleSectionsWithDuplicateValues(result: \"pass\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple named example sections with duplicate values"
+        }
+      },
+      {
+        "name": "DealWithMultipleNamedExampleSectionsWithDuplicateValues(result: \"fail\", exampleTags: [])",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple named example sections with duplicate values"
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.ScenarioOutlineSteps.ThenTheScenarioWill(String result) in C:\\Git\\pickles\\test-harness\\AutomationLayer\\ScenarioOutlineSteps.cs:line 19\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.DealWithMultipleNamedExampleSectionsWithDuplicateValues(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 130"
+      },
+      {
+        "name": "DealWithMultipleNamedExampleSectionsWithDuplicateValues(result: \"inconclusive\", exampleTags: [])",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple named example sections with duplicate values"
+        },
+        "message": "TechTalk.SpecFlow.SpecFlowException : Test pending: One or more step definitions are not implemented yet.\\r\\n  ScenarioOutlineSteps.ThenTheScenarioWill(\"inconclusive\")",
+        "trace": "at TechTalk.SpecFlow.UnitTestProvider.XUnitRuntimeProvider.TestPending(String message)\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.DealWithMultipleNamedExampleSectionsWithDuplicateValues(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 130"
+      },
+      {
+        "name": "DealWithMultipleNamedExampleSectionsWithDuplicateValues(result: \"fail\", exampleTags: [])",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple named example sections with duplicate values"
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.ScenarioOutlineSteps.ThenTheScenarioWill(String result) in C:\\Git\\pickles\\test-harness\\AutomationLayer\\ScenarioOutlineSteps.cs:line 19\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.DealWithMultipleNamedExampleSectionsWithDuplicateValues(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 130"
+      },
+      {
+        "name": "DealWithMultipleNamedExampleSectionsWithDuplicateValues(result: \"pass\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple named example sections with duplicate values"
+        }
+      },
+      {
+        "name": "DealWithMultipleExampleSectionsWithDuplicateValues(result: \"pass\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple example sections with duplicate values"
+        }
+      },
+      {
+        "name": "DealWithMultipleExampleSectionsWithDuplicateValues(result: \"fail\", exampleTags: [])",
+        "status": "failed",
+        "duration": 4,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple example sections with duplicate values"
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.ScenarioOutlineSteps.ThenTheScenarioWill(String result) in C:\\Git\\pickles\\test-harness\\AutomationLayer\\ScenarioOutlineSteps.cs:line 19\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.DealWithMultipleExampleSectionsWithDuplicateValues(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 102"
+      },
+      {
+        "name": "DealWithMultipleExampleSectionsWithDuplicateValues(result: \"pass\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple example sections with duplicate values"
+        }
+      },
+      {
+        "name": "DealWithMultipleExampleSectionsWithDuplicateValues(result: \"fail\", exampleTags: [])",
+        "status": "failed",
+        "duration": 5,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple example sections with duplicate values"
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.ScenarioOutlineSteps.ThenTheScenarioWill(String result) in C:\\Git\\pickles\\test-harness\\AutomationLayer\\ScenarioOutlineSteps.cs:line 19\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.DealWithMultipleExampleSectionsWithDuplicateValues(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 102"
+      },
+      {
+        "name": "DealWithMultipleExampleSectionsWithDuplicateValues(result: \"inconclusive\", exampleTags: [])",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple example sections with duplicate values"
+        },
+        "message": "TechTalk.SpecFlow.SpecFlowException : Test pending: One or more step definitions are not implemented yet.\\r\\n  ScenarioOutlineSteps.ThenTheScenarioWill(\"inconclusive\")",
+        "trace": "at TechTalk.SpecFlow.UnitTestProvider.XUnitRuntimeProvider.TestPending(String message)\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.DealWithMultipleExampleSectionsWithDuplicateValues(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 102"
+      },
+      {
+        "name": "DealWithMultipleExampleSectionsWithDuplicateValues(result: \"fail\", exampleTags: [])",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple example sections with duplicate values"
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.ScenarioOutlineSteps.ThenTheScenarioWill(String result) in C:\\Git\\pickles\\test-harness\\AutomationLayer\\ScenarioOutlineSteps.cs:line 19\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.DealWithMultipleExampleSectionsWithDuplicateValues(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 102"
+      },
+      {
+        "name": "DealWithMultipleExampleSectionsWithDuplicateValues(result: \"pass\", exampleTags: [])",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple example sections with duplicate values"
+        }
+      },
+      {
+        "name": "DealWithMultipleNamedExampleSectionsWithoutDuplicateValues(result: \"pass\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple named example sections without duplicate values"
+        }
+      },
+      {
+        "name": "DealWithMultipleNamedExampleSectionsWithoutDuplicateValues(result: \"fail\", exampleTags: [])",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple named example sections without duplicate values"
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.ScenarioOutlineSteps.ThenTheScenarioWill(String result) in C:\\Git\\pickles\\test-harness\\AutomationLayer\\ScenarioOutlineSteps.cs:line 19\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.DealWithMultipleNamedExampleSectionsWithoutDuplicateValues(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 118"
+      },
+      {
+        "name": "DealWithMultipleNamedExampleSectionsWithoutDuplicateValues(result: \"inconclusive\", exampleTags: [])",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenarioOutlinesFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenario Outlines",
+          "Description": "Deal with multiple named example sections without duplicate values"
+        },
+        "message": "TechTalk.SpecFlow.SpecFlowException : Test pending: One or more step definitions are not implemented yet.\\r\\n  ScenarioOutlineSteps.ThenTheScenarioWill(\"inconclusive\")",
+        "trace": "at TechTalk.SpecFlow.UnitTestProvider.XUnitRuntimeProvider.TestPending(String message)\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.ScenarioOutlinesFeature.DealWithMultipleNamedExampleSectionsWithoutDuplicateValues(String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\ScenarioOutlines.feature:line 118"
+      },
+      {
+        "name": "PassingFeaturePassingScenario",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "Pickles.TestHarness.xunit2.MinimalFeatures.PassingFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Passing",
+          "Description": "Passing Feature Passing Scenario"
+        }
+      },
+      {
+        "name": "ThisIsAScenarioOutlineWithParenthesesHyphenAndComma10_2030_40(result: \"pass_1\", exampleTags: [])",
+        "status": "passed",
+        "duration": 198,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenariosWithSpecialCharactersFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenarios With Special Characters",
+          "Description": "This is a scenario outline with parentheses, hyphen and comma (10-20, 30-40)"
+        }
+      },
+      {
+        "name": "ThisIsAScenarioOutlineWithAmpersand(result: \"pass_1\", exampleTags: [])",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenariosWithSpecialCharactersFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenarios With Special Characters",
+          "Description": "This is a scenario outline with ampersand &"
+        }
+      },
+      {
+        "name": "ThisIsAScenarioWithSpanishCharactersNaeiou",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenariosWithSpecialCharactersFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenarios With Special Characters",
+          "Description": "This is a scenario with spanish characters ñáéíóú"
+        }
+      },
+      {
+        "name": "ThisIsAScenarioWithParenthesesHyphenAndComma10_2030_40",
+        "status": "passed",
+        "duration": 150,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenariosWithSpecialCharactersFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenarios With Special Characters",
+          "Description": "This is a scenario with parentheses, hyphen and comma (10-20, 30-40)"
+        }
+      },
+      {
+        "name": "ThisScenarioContainsExamplesWithRegex_SpecialCharacters(regex: \"**\", exampleTags: [])",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenariosWithSpecialCharactersFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenarios With Special Characters",
+          "Description": "This scenario contains examples with Regex-special characters"
+        }
+      },
+      {
+        "name": "ThisScenarioContainsExamplesWithRegex_SpecialCharacters(regex: \"++\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenariosWithSpecialCharactersFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenarios With Special Characters",
+          "Description": "This scenario contains examples with Regex-special characters"
+        }
+      },
+      {
+        "name": "ThisScenarioContainsExamplesWithRegex_SpecialCharacters(regex: \".*\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenariosWithSpecialCharactersFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenarios With Special Characters",
+          "Description": "This scenario contains examples with Regex-special characters"
+        }
+      },
+      {
+        "name": "ThisScenarioContainsExamplesWithRegex_SpecialCharacters(regex: \"[]\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenariosWithSpecialCharactersFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenarios With Special Characters",
+          "Description": "This scenario contains examples with Regex-special characters"
+        }
+      },
+      {
+        "name": "ThisScenarioContainsExamplesWithRegex_SpecialCharacters(regex: \"{}\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenariosWithSpecialCharactersFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenarios With Special Characters",
+          "Description": "This scenario contains examples with Regex-special characters"
+        }
+      },
+      {
+        "name": "ThisScenarioContainsExamplesWithRegex_SpecialCharacters(regex: \"()\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenariosWithSpecialCharactersFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenarios With Special Characters",
+          "Description": "This scenario contains examples with Regex-special characters"
+        }
+      },
+      {
+        "name": "ThisScenarioContainsExamplesWithRegex_SpecialCharacters(regex: \"^.*(?<foo>BAR)\\s[^0-9]{3,4}A+$\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenariosWithSpecialCharactersFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenarios With Special Characters",
+          "Description": "This scenario contains examples with Regex-special characters"
+        }
+      },
+      {
+        "name": "ThisIsAScenarioOutlineWithGermanUmlautsAouBAOU(result: \"pass_1\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenariosWithSpecialCharactersFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenarios With Special Characters",
+          "Description": "This is a scenario outline with german umlauts äöüß ÄÖÜ"
+        }
+      },
+      {
+        "name": "ThisIsAScenarioWithDanishCharactersAEoaAEOA",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.ScenariosWithSpecialCharactersFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Scenarios With Special Characters",
+          "Description": "This is a scenario with danish characters æøå ÆØÅ"
+        }
+      },
+      {
+        "name": "AddingSeveralNumbers(firstNumber: \"60\", secondNumber: \"70\", thirdNumber: \"130\", result: \"260\", exampleTags: [])",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "Pickles.TestHarness.xunit2.AdditionFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Addition",
+          "Description": "Adding several numbers"
+        }
+      },
+      {
+        "name": "AddingSeveralNumbers(firstNumber: \"40\", secondNumber: \"50\", thirdNumber: \"90\", result: \"180\", exampleTags: [])",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Pickles.TestHarness.xunit2.AdditionFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Addition",
+          "Description": "Adding several numbers"
+        }
+      },
+      {
+        "name": "NotAutomatedAddingTwoNumbers",
+        "status": "failed",
+        "duration": 186,
+        "suite": [
+          "Pickles.TestHarness.xunit2.AdditionFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Addition",
+          "Description": "Not automated adding two numbers"
+        },
+        "message": "TechTalk.SpecFlow.SpecFlowException : Test pending: No matching step definition found for one or more steps.\\r\\nusing System;\\r\\nusing TechTalk.SpecFlow;\\r\\n\\r\\nnamespace MyNamespace\\r\\n{\\r\\n    [Binding]\\r\\n    public class StepDefinitions\\r\\n    {\\r\\n        [Given(@\"unimplemented step\")]\\r\\n        public void GivenUnimplementedStep()\\r\\n        {\\r\\n            ScenarioContext.Current.Pending();\\r\\n        }\\r\\n        \\r\\n        [When(@\"unimplemented step\")]\\r\\n        public void WhenUnimplementedStep()\\r\\n        {\\r\\n            ScenarioContext.Current.Pending();\\r\\n        }\\r\\n        \\r\\n        [Then(@\"unimplemented step\")]\\r\\n        public void ThenUnimplementedStep()\\r\\n        {\\r\\n            ScenarioContext.Current.Pending();\\r\\n        }\\r\\n    }\\r\\n}\\r\\n",
+        "trace": "at TechTalk.SpecFlow.UnitTestProvider.XUnitRuntimeProvider.TestPending(String message)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.AdditionFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.AdditionFeature.NotAutomatedAddingTwoNumbers() in C:\\Git\\pickles\\test-harness\\xunit2\\Addition.feature:line 46"
+      },
+      {
+        "name": "AddTwoNumbers",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.AdditionFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Addition",
+          "Description": "Add two numbers"
+        }
+      },
+      {
+        "name": "IgnoredAddingTwoNumbers",
+        "status": "skipped",
+        "duration": 0,
+        "suite": [
+          "Pickles.TestHarness.xunit2.AdditionFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Addition",
+          "Description": "Ignored adding two numbers"
+        },
+        "stdout": [
+          "Ignored"
+        ]
+      },
+      {
+        "name": "FailToAddTwoNumbers",
+        "status": "failed",
+        "duration": 5,
+        "suite": [
+          "Pickles.TestHarness.xunit2.AdditionFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Addition",
+          "Description": "Fail to add two numbers"
+        },
+        "message": "System.FormatException : Input string was not in a correct format.",
+        "trace": "at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)\n   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)\n   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)\n   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)\n   at System.Linq.Enumerable.<SelectIterator>d__5`2.MoveNext()\n   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)\n   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.GetExecuteArguments(BindingMatch match)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.AdditionFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.AdditionFeature.FailToAddTwoNumbers() in C:\\Git\\pickles\\test-harness\\xunit2\\Addition.feature:line 34"
+      },
+      {
+        "name": "InconclusiveFeaturePassingScenario",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.MinimalFeatures.InconclusiveFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Inconclusive",
+          "Description": "Inconclusive Feature Passing Scenario"
+        }
+      },
+      {
+        "name": "InconclusiveFeatureInconclusiveScenario",
+        "status": "failed",
+        "duration": 6,
+        "suite": [
+          "Pickles.TestHarness.xunit2.MinimalFeatures.InconclusiveFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Inconclusive",
+          "Description": "Inconclusive Feature Inconclusive Scenario"
+        },
+        "message": "TechTalk.SpecFlow.SpecFlowException : Test pending: One or more step definitions are not implemented yet.\\r\\n  MinimalSteps.ThenInconclusiveStep()",
+        "trace": "at TechTalk.SpecFlow.UnitTestProvider.XUnitRuntimeProvider.TestPending(String message)\n   at Pickles.TestHarness.xunit2.MinimalFeatures.InconclusiveFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.MinimalFeatures.InconclusiveFeature.InconclusiveFeatureInconclusiveScenario() in C:\\Git\\pickles\\test-harness\\xunit2\\Minimal Features\\Inconclusive.feature:line 7"
+      },
+      {
+        "name": "AddingSeveralNumbers(firstNumber: \"60\", secondNumber: \"70\", thirdNumber: \"130\", result: \"260\", exampleTags: [])",
+        "status": "failed",
+        "duration": 13,
+        "suite": [
+          "Pickles.TestHarness.xunit2.FailingBackgroundFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Failing Background",
+          "Description": "Adding several numbers"
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.AdditionSteps.GivenTheBackgroundStepFails() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\AdditionSteps.cs:line 25\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.FailingBackgroundFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.FailingBackgroundFeature.AddingSeveralNumbers(String firstNumber, String secondNumber, String thirdNumber, String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\FailingBackground.feature:line 19"
+      },
+      {
+        "name": "AddingSeveralNumbers(firstNumber: \"40\", secondNumber: \"50\", thirdNumber: \"90\", result: \"180\", exampleTags: [])",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "Pickles.TestHarness.xunit2.FailingBackgroundFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Failing Background",
+          "Description": "Adding several numbers"
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.AdditionSteps.GivenTheBackgroundStepFails() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\AdditionSteps.cs:line 25\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.FailingBackgroundFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.FailingBackgroundFeature.AddingSeveralNumbers(String firstNumber, String secondNumber, String thirdNumber, String result, String[] exampleTags) in C:\\Git\\pickles\\test-harness\\xunit2\\FailingBackground.feature:line 19"
+      },
+      {
+        "name": "AddTwoNumbers",
+        "status": "failed",
+        "duration": 6,
+        "suite": [
+          "Pickles.TestHarness.xunit2.FailingBackgroundFeature"
+        ],
+        "parameters": {
+          "FeatureTitle": "Failing Background",
+          "Description": "Add two numbers"
+        },
+        "message": "NFluent.FluentCheckException : \\nThe checked value is different from the expected one.\\nThe checked value:\\n\\t[True]\\nThe expected value:\\n\\t[False]",
+        "trace": "at NFluent.Helpers.EqualityHelper.IsEqualTo(Object instance, Object expected)\n   at NFluent.Extensibility.Checker`2.ExecuteCheck(Action action, String negatedExceptionMessage)\n   at AutomationLayer.MarkTestAs.Failing() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\MarkTestAs.cs:line 15\n   at AutomationLayer.AdditionSteps.GivenTheBackgroundStepFails() in C:\\Git\\pickles\\test-harness\\AutomationLayer\\AdditionSteps.cs:line 25\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\n   at Pickles.TestHarness.xunit2.FailingBackgroundFeature.ScenarioCleanup()\n   at Pickles.TestHarness.xunit2.FailingBackgroundFeature.AddTwoNumbers() in C:\\Git\\pickles\\test-harness\\xunit2\\FailingBackground.feature:line 12"
+      }
+    ]
+  }
+}

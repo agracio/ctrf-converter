@@ -1,0 +1,173 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2026-06-11T19:33:42.451Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 16,
+      "passed": 9,
+      "failed": 5,
+      "skipped": 2,
+      "pending": 0,
+      "other": 0,
+      "start": 1781206422451,
+      "stop": 1781206425531,
+      "suites": 3,
+      "duration": 3080
+    },
+    "tests": [
+      {
+        "name": "Failing_test",
+        "status": "failed",
+        "duration": 23,
+        "suite": [
+          "NUnitSample.DataDriven"
+        ],
+        "message": "Failing for demo purposes",
+        "trace": "at NUnitSample.DataDriven.Failing_test() in C:\\projects\\trx2junit\\samples\\NUnitSample\\DataDriven.cs:line 27\n\n1)    at NUnitSample.DataDriven.Failing_test() in C:\\projects\\trx2junit\\samples\\NUnitSample\\DataDriven.cs:line 27"
+      },
+      {
+        "name": "Slow_test",
+        "status": "passed",
+        "duration": 1009,
+        "suite": [
+          "NUnitSample.DataDriven"
+        ]
+      },
+      {
+        "name": "Two_pass_one_fails(0)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "NUnitSample.DataDriven"
+        ]
+      },
+      {
+        "name": "Two_pass_one_fails(1)",
+        "status": "failed",
+        "duration": 1,
+        "suite": [
+          "NUnitSample.DataDriven"
+        ],
+        "message": "Failing for demo purposes",
+        "trace": "at NUnitSample.DataDriven.Two_pass_one_fails(Int32 arg) in C:\\projects\\trx2junit\\samples\\NUnitSample\\DataDriven.cs:line 18\n   at InvokeStub_DataDriven.Two_pass_one_fails(Object, Span`1)\n\n1)    at NUnitSample.DataDriven.Two_pass_one_fails(Int32 arg) in C:\\projects\\trx2junit\\samples\\NUnitSample\\DataDriven.cs:line 18\n   at InvokeStub_DataDriven.Two_pass_one_fails(Object, Span`1)"
+      },
+      {
+        "name": "Two_pass_one_fails(2)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "NUnitSample.DataDriven"
+        ]
+      },
+      {
+        "name": "Failing_test",
+        "status": "failed",
+        "duration": 4,
+        "suite": [
+          "NUnitSample.MemberData"
+        ],
+        "message": "  Failing for demo purposes   Expected: True   But was:  False ",
+        "trace": "at NUnitSample.MemberData.Failing_test() in C:\\projects\\trx2junit\\samples\\NUnitSample\\MemberData.cs:line 31\n\n1)    at NUnitSample.MemberData.Failing_test() in C:\\projects\\trx2junit\\samples\\NUnitSample\\MemberData.cs:line 31"
+      },
+      {
+        "name": "Slow_test",
+        "status": "passed",
+        "duration": 1015,
+        "suite": [
+          "NUnitSample.MemberData"
+        ]
+      },
+      {
+        "name": "Two_pass_one_fails({ index = 0 })",
+        "status": "passed",
+        "duration": 22,
+        "suite": [
+          "NUnitSample.MemberData"
+        ]
+      },
+      {
+        "name": "Two_pass_one_fails({ index = 1 })",
+        "status": "failed",
+        "duration": 1,
+        "suite": [
+          "NUnitSample.MemberData"
+        ],
+        "message": "  Failing for demo purposes   Expected: True   But was:  False ",
+        "trace": "at NUnitSample.MemberData.Two_pass_one_fails(Object obj) in C:\\projects\\trx2junit\\samples\\NUnitSample\\MemberData.cs:line 22\n   at InvokeStub_MemberData.Two_pass_one_fails(Object, Span`1)\n\n1)    at NUnitSample.MemberData.Two_pass_one_fails(Object obj) in C:\\projects\\trx2junit\\samples\\NUnitSample\\MemberData.cs:line 22\n   at InvokeStub_MemberData.Two_pass_one_fails(Object, Span`1)"
+      },
+      {
+        "name": "Two_pass_one_fails({ index = 2 })",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "NUnitSample.MemberData"
+        ]
+      },
+      {
+        "name": "Failing_test",
+        "status": "failed",
+        "duration": 1,
+        "suite": [
+          "NUnitSample.SimpleTests"
+        ],
+        "message": "Failing for demo purposes",
+        "trace": "at NUnitSample.SimpleTests.Failing_test() in C:\\projects\\trx2junit\\samples\\NUnitSample\\SimpleTests.cs:line 21\n\n1)    at NUnitSample.SimpleTests.Failing_test() in C:\\projects\\trx2junit\\samples\\NUnitSample\\SimpleTests.cs:line 21"
+      },
+      {
+        "name": "Ignored_test",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "NUnitSample.SimpleTests"
+        ],
+        "stdout": [
+          "Ignoring for testing ;-)"
+        ]
+      },
+      {
+        "name": "Passing_test",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "NUnitSample.SimpleTests"
+        ]
+      },
+      {
+        "name": "Slow_test",
+        "status": "passed",
+        "duration": 1006,
+        "suite": [
+          "NUnitSample.SimpleTests"
+        ]
+      },
+      {
+        "name": "Test_with_StdOut",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "NUnitSample.SimpleTests"
+        ],
+        "stdout": [
+          "message written to stdout"
+        ]
+      },
+      {
+        "name": "Test_with_failed_assumption",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "NUnitSample.SimpleTests"
+        ],
+        "stdout": [
+          "Expected: True\n  But was:  False"
+        ]
+      }
+    ]
+  }
+}

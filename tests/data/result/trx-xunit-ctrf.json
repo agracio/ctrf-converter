@@ -1,0 +1,151 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2026-06-11T19:33:42.424Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 14,
+      "passed": 8,
+      "failed": 5,
+      "skipped": 1,
+      "pending": 0,
+      "other": 0,
+      "start": 1781206422424,
+      "stop": 1781206425488,
+      "suites": 3,
+      "duration": 3064
+    },
+    "tests": [
+      {
+        "name": "Failing_test",
+        "status": "failed",
+        "duration": 1,
+        "suite": [
+          "XUnitSample.DataDriven"
+        ],
+        "message": "Failing for demo purposes Expected: True Actual:   False",
+        "trace": "at XUnitSample.DataDriven.Failing_test() in C:\\projects\\trx2junit\\samples\\XUnitSample\\DataDriven.cs:line 26\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+      },
+      {
+        "name": "Slow_test",
+        "status": "passed",
+        "duration": 1008,
+        "suite": [
+          "XUnitSample.DataDriven"
+        ]
+      },
+      {
+        "name": "Two_pass_one_fails(arg: 0)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "XUnitSample.DataDriven"
+        ]
+      },
+      {
+        "name": "Two_pass_one_fails(arg: 1)",
+        "status": "failed",
+        "duration": 1,
+        "suite": [
+          "XUnitSample.DataDriven"
+        ],
+        "message": "Failing for demo purposes Expected: True Actual:   False",
+        "trace": "at XUnitSample.DataDriven.Two_pass_one_fails(Int32 arg) in C:\\projects\\trx2junit\\samples\\XUnitSample\\DataDriven.cs:line 17\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)"
+      },
+      {
+        "name": "Two_pass_one_fails(arg: 2)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "XUnitSample.DataDriven"
+        ]
+      },
+      {
+        "name": "Failing_test",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "XUnitSample.MemberData"
+        ],
+        "message": "Failing for demo purposes Expected: True Actual:   False",
+        "trace": "at XUnitSample.MemberData.Failing_test() in C:\\projects\\trx2junit\\samples\\XUnitSample\\MemberData.cs:line 32\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+      },
+      {
+        "name": "Slow_test",
+        "status": "passed",
+        "duration": 1014,
+        "suite": [
+          "XUnitSample.MemberData"
+        ]
+      },
+      {
+        "name": "Two_pass_one_fails(obj: { index = 0 })",
+        "status": "passed",
+        "duration": 24,
+        "suite": [
+          "XUnitSample.MemberData"
+        ]
+      },
+      {
+        "name": "Two_pass_one_fails(obj: { index = 1 })",
+        "status": "failed",
+        "duration": 1,
+        "suite": [
+          "XUnitSample.MemberData"
+        ],
+        "message": "Failing for demo purposes Expected: True Actual:   False",
+        "trace": "at XUnitSample.MemberData.Two_pass_one_fails(Object obj) in C:\\projects\\trx2junit\\samples\\XUnitSample\\MemberData.cs:line 23\n   at InvokeStub_MemberData.Two_pass_one_fails(Object, Span`1)\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)"
+      },
+      {
+        "name": "Two_pass_one_fails(obj: { index = 2 })",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "XUnitSample.MemberData"
+        ]
+      },
+      {
+        "name": "Failing_test",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "XUnitSample.SimpleTests"
+        ],
+        "message": "Failing for demo purposes Expected: True Actual:   False",
+        "trace": "at XUnitSample.SimpleTests.Failing_test() in C:\\projects\\trx2junit\\samples\\XUnitSample\\SimpleTests.cs:line 20\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+      },
+      {
+        "name": "Ignored_test",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "XUnitSample.SimpleTests"
+        ],
+        "stdout": [
+          "Ignoring for testing ;-)"
+        ]
+      },
+      {
+        "name": "Passing_test",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "XUnitSample.SimpleTests"
+        ]
+      },
+      {
+        "name": "Slow_test",
+        "status": "passed",
+        "duration": 1014,
+        "suite": [
+          "XUnitSample.SimpleTests"
+        ]
+      }
+    ]
+  }
+}

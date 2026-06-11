@@ -1,0 +1,70 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2026-06-11T19:33:42.276Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 6,
+      "passed": 3,
+      "failed": 3,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1781206422276,
+      "stop": 1781206423311,
+      "suites": 1,
+      "duration": 1035
+    },
+    "tests": [
+      {
+        "name": "Failing_test",
+        "status": "failed",
+        "duration": 1,
+        "suite": [
+          "MsTestSample.DataDriven"
+        ],
+        "message": "Assert.Fail failed. Failing for demo purposes",
+        "trace": "at MsTestSample.DataDriven.Failing_test() in D:\\Work-Git\\github\\Mini\\trx2junit\\samples\\MsTestSample\\DataDriven.cs:line 25"
+      },
+      {
+        "name": "Slow_test",
+        "status": "passed",
+        "duration": 1001,
+        "suite": [
+          "MsTestSample.DataDriven"
+        ]
+      },
+      {
+        "name": "Two_pass_one_fails (0)",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "MsTestSample.DataDriven"
+        ]
+      },
+      {
+        "name": "Two_pass_one_fails (1)",
+        "status": "failed",
+        "duration": 28,
+        "suite": [
+          "MsTestSample.DataDriven"
+        ],
+        "message": "Assert.Fail failed. Failing for demo purposes",
+        "trace": "at MsTestSample.DataDriven.Two_pass_one_fails(Int32 arg) in D:\\Work-Git\\github\\Mini\\trx2junit\\samples\\MsTestSample\\DataDriven.cs:line 16"
+      },
+      {
+        "name": "Two_pass_one_fails (2)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MsTestSample.DataDriven"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2026-06-11T19:33:42.242Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 5,
+      "passed": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1781206422242,
+      "stop": 1781206422376,
+      "suites": 3,
+      "duration": 134
+    },
+    "tests": [
+      {
+        "name": "SimpleTest",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "ExampleTestFixture"
+        ],
+        "stdout": [
+          "Running ExampleTestFixture.SetupMethod\n     Running ExampleTestFixture.SimpleTest"
+        ]
+      },
+      {
+        "name": "Example1",
+        "status": "passed",
+        "duration": 23,
+        "suite": [
+          "ParameterizedTest"
+        ],
+        "parameters": {
+          "_JOINTYPE": "Combinatorial",
+          "_PID": "8204",
+          "_APPDOMAIN": "domain-4461bdb5-TestLibrary.Example.dll"
+        },
+        "stdout": [
+          "Running ExampleTestFixture.SetupMethod\n     Running ExampleTestFixture.ParameterizedTest"
+        ]
+      },
+      {
+        "name": "ParameterizedTest(2,3,5)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "ParameterizedTest"
+        ],
+        "parameters": {
+          "Description": "Ensures aria-label is not present instead of empty string"
+        },
+        "stdout": [
+          "Running ExampleTestFixture.SetupMethod\n     Running ExampleTestFixture.ParameterizedTest"
+        ]
+      },
+      {
+        "name": "Example1",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "TestWithSource"
+        ],
+        "stdout": [
+          "Running ExampleTestFixture.SetupMethod\n     Running ExampleTestFixture.TestWithSource"
+        ]
+      },
+      {
+        "name": "TestWithSource(2,3,5)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "TestWithSource"
+        ],
+        "stdout": [
+          "Running ExampleTestFixture.SetupMethod\n     Running ExampleTestFixture.TestWithSource"
+        ]
+      }
+    ]
+  }
+}

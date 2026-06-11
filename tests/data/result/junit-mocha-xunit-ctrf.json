@@ -1,0 +1,143 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2026-06-11T19:33:42.260Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 14,
+      "passed": 7,
+      "failed": 5,
+      "skipped": 2,
+      "pending": 0,
+      "other": 0,
+      "start": 1781206422260,
+      "stop": 1781206422316,
+      "suites": 1,
+      "duration": 56
+    },
+    "tests": [
+      {
+        "name": "[CoreCLR] exists",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "Mocha Tests"
+        ]
+      },
+      {
+        "name": "[CoreCLR] succeeds with assemblyFile as string",
+        "status": "skipped",
+        "duration": 0,
+        "suite": [
+          "Mocha Tests"
+        ]
+      },
+      {
+        "name": "[CoreCLR] succeeds with assemblyFile as options property",
+        "status": "skipped",
+        "duration": 0,
+        "suite": [
+          "Mocha Tests"
+        ]
+      },
+      {
+        "name": "[CoreCLR] succeeds with assemblyFile and type name",
+        "status": "failed",
+        "duration": 46,
+        "suite": [
+          "Mocha Tests"
+        ],
+        "trace": "Could not load file or assembly &#x27;test, Culture=neutral, PublicKeyToken=null&#x27;. The system cannot find the file specified.\nError: Could not load file or assembly &#x27;test, Culture=neutral, PublicKeyToken=null&#x27;. The system cannot find the file specified.\n    at exports.func (lib\\edge.js:174:17)\n    at Context.&#x3C;anonymous&#x3E; (test\\101_edge_func.js:82:19)\n    at process.processImmediate (node:internal/timers:491:21)"
+      },
+      {
+        "name": "[CoreCLR] fails with assemblyFile and nonexisting type name",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "Mocha Tests"
+        ],
+        "trace": "The input did not match the regular expression /Could not load type &#x27;Edge.Tests.idontexist&#x27;/. Input:\n\n&#x22;System.IO.FileNotFoundException: Could not load file or assembly &#x27;test, Culture=neutral, PublicKeyToken=null&#x27;. The system cannot find the file specified.&#x22;\n\nAssertionError [ERR_ASSERTION]: The input did not match the regular expression /Could not load type &#x27;Edge.Tests.idontexist&#x27;/. Input:\n\n&#x22;System.IO.FileNotFoundException: Could not load file or assembly &#x27;test, Culture=neutral, PublicKeyToken=null&#x27;. The system cannot find the file specified.&#x22;\n\n    at Context.&#x3C;anonymous&#x3E; (test\\101_edge_func.js:90:10)\n    at process.processImmediate (node:internal/timers:491:21)"
+      },
+      {
+        "name": "[CoreCLR] succeeds with assemblyFile, type name, and method name",
+        "status": "failed",
+        "duration": 1,
+        "suite": [
+          "Mocha Tests"
+        ],
+        "trace": "Could not load file or assembly &#x27;test, Culture=neutral, PublicKeyToken=null&#x27;. The system cannot find the file specified.\nError: Could not load file or assembly &#x27;test, Culture=neutral, PublicKeyToken=null&#x27;. The system cannot find the file specified.\n    at exports.func (lib\\edge.js:174:17)\n    at Context.&#x3C;anonymous&#x3E; (test\\101_edge_func.js:102:19)\n    at process.processImmediate (node:internal/timers:491:21)"
+      },
+      {
+        "name": "[CoreCLR] fails with assemblyFile, type name and nonexisting method name",
+        "status": "failed",
+        "duration": 0,
+        "suite": [
+          "Mocha Tests"
+        ],
+        "trace": "The input did not match the regular expression /Unable to access the CLR method to wrap through reflection/. Input:\n\n&#x22;System.IO.FileNotFoundException: Could not load file or assembly &#x27;test, Culture=neutral, PublicKeyToken=null&#x27;. The system cannot find the file specified.&#x22;\n\nAssertionError [ERR_ASSERTION]: The input did not match the regular expression /Unable to access the CLR method to wrap through reflection/. Input:\n\n&#x22;System.IO.FileNotFoundException: Could not load file or assembly &#x27;test, Culture=neutral, PublicKeyToken=null&#x27;. The system cannot find the file specified.&#x22;\n\n    at Context.&#x3C;anonymous&#x3E; (test\\101_edge_func.js:111:10)\n    at process.processImmediate (node:internal/timers:491:21)"
+      },
+      {
+        "name": "[CoreCLR] fails without parameters",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "Mocha Tests"
+        ]
+      },
+      {
+        "name": "[CoreCLR] fails with a wrong parameter",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "Mocha Tests"
+        ]
+      },
+      {
+        "name": "[CoreCLR] fails with a wrong language parameter",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "Mocha Tests"
+        ]
+      },
+      {
+        "name": "[CoreCLR] fails with a unsupported language parameter",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Mocha Tests"
+        ]
+      },
+      {
+        "name": "[CoreCLR] fails with missing assemblyFile or source",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "Mocha Tests"
+        ]
+      },
+      {
+        "name": "[CoreCLR] fails with both assemblyFile or source",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "Mocha Tests"
+        ]
+      },
+      {
+        "name": "[CoreCLR] fails with nonexisting assemblyFile",
+        "status": "failed",
+        "duration": 0,
+        "suite": [
+          "Mocha Tests"
+        ],
+        "trace": "the string &#x22;new exception&#x22; was thrown, throw an Error :)\nError: the string &#x22;new exception&#x22; was thrown, throw an Error :)\n    at process.processImmediate (node:internal/timers:491:21)"
+      }
+    ]
+  }
+}

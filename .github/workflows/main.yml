@@ -1,0 +1,56 @@
+name: Test
+
+on:
+  push:
+    paths-ignore:
+      - '.github/FUNDING.YML'
+      - '.github/dependabot.yml'
+      - '**/*.md'
+      - '.gitconfig'
+      - '.gitignore'
+      - '.npmignore'
+      - 'LICENSE*'
+      - '.idea/**'
+      - '.vscode/**'
+      - 'README.md'
+      - 'gulpfile.js'
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    name: test-${{ matrix.os }}-node-${{ matrix.node }}
+    permissions:
+      checks: write
+      pull-requests: write
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, ubuntu-latest, windows-latest]
+        node: [20, 22, 24, 26]
+        
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ matrix.node }}
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
+
+      - name: Cache node modules
+        id: cache-nodemodules
+        uses: actions/cache@v5
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: node_modules
+          key: ${{ matrix.os }}-${{ matrix.node }}-${{ hashFiles('package-lock.json') }}
+
+      - name: npm install
+        run: npm i --no-audit
+
+      - name: "Run tests"
+        run: npm test
+

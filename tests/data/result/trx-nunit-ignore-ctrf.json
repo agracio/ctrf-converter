@@ -1,0 +1,74 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2026-06-11T19:33:42.288Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 5,
+      "passed": 2,
+      "failed": 1,
+      "skipped": 2,
+      "pending": 0,
+      "other": 0,
+      "start": 1781206422288,
+      "stop": 1781206423362,
+      "suites": 1,
+      "duration": 1074
+    },
+    "tests": [
+      {
+        "name": "Failing_test",
+        "status": "failed",
+        "duration": 59,
+        "suite": [
+          "NUnitSample.SimpleTests"
+        ],
+        "message": "Failing for demo purposes",
+        "trace": "at NUnitSample.SimpleTests.Failing_test() in D:\\Work-Git\\github\\Mini\\trx2junit\\samples\\NUnitSample\\SimpleTests.cs:line 21"
+      },
+      {
+        "name": "Ignored_test",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "NUnitSample.SimpleTests"
+        ],
+        "stdout": [
+          "Ignoring for testing ;-)"
+        ]
+      },
+      {
+        "name": "Passing_test",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "NUnitSample.SimpleTests"
+        ]
+      },
+      {
+        "name": "Slow_test",
+        "status": "passed",
+        "duration": 1002,
+        "suite": [
+          "NUnitSample.SimpleTests"
+        ]
+      },
+      {
+        "name": "Test_with_failed_assumption",
+        "status": "skipped",
+        "duration": 11,
+        "suite": [
+          "NUnitSample.SimpleTests"
+        ],
+        "stdout": [
+          "  Expected: True   But was:  False "
+        ]
+      }
+    ]
+  }
+}

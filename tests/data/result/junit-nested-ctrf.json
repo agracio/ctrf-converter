@@ -1,0 +1,106 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2026-06-11T19:33:42.251Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 10,
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1781206422251,
+      "stop": 1781206422291,
+      "suites": 3,
+      "duration": 40
+    },
+    "tests": [
+      {
+        "name": "[.NET] successfuly marshals data from .net to node.js",
+        "status": "passed",
+        "duration": 245,
+        "suite": [
+          "async call from node.js to .net"
+        ]
+      },
+      {
+        "name": "[.NET] successfuly marshals .net exception thrown on v8 thread from .net to node.js",
+        "status": "passed",
+        "duration": 9,
+        "suite": [
+          "async call from node.js to .net"
+        ]
+      },
+      {
+        "name": "[.NET] successfuly marshals .net exception thrown on CLR thread from .net to node.js",
+        "status": "passed",
+        "duration": 215,
+        "suite": [
+          "async call from node.js to .net"
+        ]
+      },
+      {
+        "name": "[.NET] successfuly marshals structured .net exception from .net to node.js",
+        "status": "passed",
+        "duration": 212,
+        "suite": [
+          "async call from node.js to .net"
+        ]
+      },
+      {
+        "name": "[.NET] successfuly marshals empty buffer",
+        "status": "passed",
+        "duration": 5,
+        "suite": [
+          "async call from node.js to .net"
+        ]
+      },
+      {
+        "name": "[.NET] successfuly roundtrips unicode characters",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "async call from node.js to .net"
+        ]
+      },
+      {
+        "name": "[.NET] successfuly roundtrips empty string",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "async call from node.js to .net"
+        ]
+      },
+      {
+        "name": "[.NET] successfuly handles process.nextTick in the callback",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "async call from node.js to .net"
+        ]
+      },
+      {
+        "name": "[.NET] succeeds for hello world",
+        "status": "passed",
+        "duration": 39,
+        "suite": [
+          "async call from node.js to .net.nesting 1.nesting 2"
+        ]
+      },
+      {
+        "name": "[.NET] successfuly marshals data from node.js to .net",
+        "status": "passed",
+        "duration": 40,
+        "suite": [
+          "async call from node.js to .net.nesting 1.nesting 2.nesting 3"
+        ]
+      }
+    ]
+  }
+}

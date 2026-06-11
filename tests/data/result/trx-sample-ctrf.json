@@ -1,0 +1,151 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2026-06-11T19:33:42.439Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 15,
+      "passed": 12,
+      "failed": 1,
+      "skipped": 2,
+      "pending": 0,
+      "other": 0,
+      "start": 1781206422439,
+      "stop": 1781206422588,
+      "suites": 3,
+      "duration": 149
+    },
+    "tests": [
+      {
+        "name": "AccountConstructorTest",
+        "status": "passed",
+        "duration": 52,
+        "suite": [
+          "AccountTest2.AccountTest"
+        ]
+      },
+      {
+        "name": "AddToBalanceTest",
+        "status": "passed",
+        "duration": 16,
+        "suite": [
+          "AccountTest2.AccountTest"
+        ]
+      },
+      {
+        "name": "ApplyInterestTest",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "AccountTest2.AccountTest"
+        ]
+      },
+      {
+        "name": "ApplyPenaltyTest",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "AccountTest2.AccountTest"
+        ]
+      },
+      {
+        "name": "BalanceTest",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "AccountTest2.AccountTest"
+        ]
+      },
+      {
+        "name": "CalculateInterestTest",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "AccountTest2.AccountTest"
+        ]
+      },
+      {
+        "name": "DepositTest",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "AccountTest2.AccountTest"
+        ]
+      },
+      {
+        "name": "MTestFail",
+        "status": "failed",
+        "duration": 60,
+        "suite": [
+          "AccountTest2.AccountTest"
+        ],
+        "message": "Assert.Fail failed. Always fails",
+        "trace": "at AccountTest2.AccountTest.MTestFail() in c:\\Jenkins_Home\\jobs\\NUnit_Quick_Learning\\workspace\\AccountTest2\\AccountMTest.cs:line 253"
+      },
+      {
+        "name": "MTestInconclusive",
+        "status": "skipped",
+        "duration": 2,
+        "suite": [
+          "AccountTest2.AccountTest"
+        ],
+        "stdout": [
+          "Assert.Inconclusive failed. Inconclusive result"
+        ]
+      },
+      {
+        "name": "MTestNotExecuted",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "AccountTest2.AccountTest"
+        ]
+      },
+      {
+        "name": "MinimumBalanceTest",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "AccountTest2.AccountTest"
+        ]
+      },
+      {
+        "name": "TransferFundsTest",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "AccountTest2.AccountTest"
+        ]
+      },
+      {
+        "name": "WithdrawTest",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "AccountTest2.AccountTest"
+        ]
+      },
+      {
+        "name": "InsufficientFundsExceptionConstructorTest",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "AccountTest2.InsufficientFundsExceptionTest"
+        ]
+      },
+      {
+        "name": "OverdrawnExceptionConstructorTest",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "AccountTest2.OverdrawnExceptionTest"
+        ]
+      }
+    ]
+  }
+}

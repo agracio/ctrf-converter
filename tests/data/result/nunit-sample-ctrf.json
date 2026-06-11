@@ -1,0 +1,211 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2026-06-11T19:33:42.328Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 25,
+      "passed": 20,
+      "failed": 2,
+      "skipped": 3,
+      "pending": 0,
+      "other": 0,
+      "start": 1781206422328,
+      "stop": 1781206422482,
+      "suites": 6,
+      "duration": 154
+    },
+    "tests": [
+      {
+        "name": "MethodWithParameters(2,2)",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "MethodWithParameters"
+        ]
+      },
+      {
+        "name": "MethodWithParameters(9,11)",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "MethodWithParameters"
+        ]
+      },
+      {
+        "name": "Test1",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "ParameterizedFixture(42)"
+        ]
+      },
+      {
+        "name": "Test2",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "ParameterizedFixture(42)"
+        ]
+      },
+      {
+        "name": "Test1",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "ParameterizedFixture(5)"
+        ]
+      },
+      {
+        "name": "Test2",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "ParameterizedFixture(5)"
+        ]
+      },
+      {
+        "name": "FailingTest",
+        "status": "failed",
+        "duration": 23,
+        "suite": [
+          "MockTestFixture"
+        ],
+        "message": "Intentional failure",
+        "trace": "at NUnit.Framework.Assert.Fail(String message, Object[] args) in D:\\Dev\\NUnit\\nunit-3.0\\work\\NUnitFramework\\src\\framework\\Assert.cs:line 142\n   at NUnit.Framework.Assert.Fail(String message) in D:\\Dev\\NUnit\\nunit-3.0\\work\\NUnitFramework\\src\\framework\\Assert.cs:line 152\n   at NUnit.Tests.Assemblies.MockTestFixture.FailingTest() in D:\\Dev\\NUnit\\nunit-3.0\\work\\NUnitFramework\\src\\mock-assembly\\MockAssembly.cs:line 121"
+      },
+      {
+        "name": "InconclusiveTest",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "MockTestFixture"
+        ],
+        "stdout": [
+          "Inconclusive test"
+        ]
+      },
+      {
+        "name": "MockTest1",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "MockTestFixture"
+        ],
+        "parameters": {
+          "Description": "Mock Test #1"
+        }
+      },
+      {
+        "name": "MockTest2",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "MockTestFixture"
+        ],
+        "parameters": {
+          "Severity": "Critical",
+          "Description": "This is a really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really long description",
+          "Category": "MockCategory"
+        }
+      },
+      {
+        "name": "MockTest3",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "MockTestFixture"
+        ],
+        "parameters": {
+          "Category": "MockCategory"
+        }
+      },
+      {
+        "name": "MockTest4",
+        "status": "skipped",
+        "duration": 0,
+        "suite": [
+          "MockTestFixture"
+        ],
+        "parameters": {
+          "Category": "Foo",
+          "_SKIPREASON": "ignoring this test method for now"
+        },
+        "stdout": [
+          "ignoring this test method for now"
+        ]
+      },
+      {
+        "name": "MockTest5",
+        "status": "skipped",
+        "duration": 0,
+        "suite": [
+          "MockTestFixture"
+        ],
+        "parameters": {
+          "_SKIPREASON": "Method is not public"
+        },
+        "stdout": [
+          "Method is not public"
+        ]
+      },
+      {
+        "name": "NotRunnableTest",
+        "status": "skipped",
+        "duration": 0,
+        "suite": [
+          "MockTestFixture"
+        ],
+        "parameters": {
+          "_SKIPREASON": "No arguments were provided"
+        },
+        "stdout": [
+          "No arguments were provided"
+        ]
+      },
+      {
+        "name": "TestWithException",
+        "status": "failed",
+        "duration": 2,
+        "suite": [
+          "MockTestFixture"
+        ],
+        "message": "System.ApplicationException : Intentional Exception",
+        "trace": "at NUnit.Tests.Assemblies.MockTestFixture.MethodThrowsException() in D:\\Dev\\NUnit\\nunit-3.0\\work\\NUnitFramework\\src\\mock-assembly\\MockAssembly.cs:line 158\n   at NUnit.Tests.Assemblies.MockTestFixture.TestWithException() in D:\\Dev\\NUnit\\nunit-3.0\\work\\NUnitFramework\\src\\mock-assembly\\MockAssembly.cs:line 153"
+      },
+      {
+        "name": "TestWithManyProperties",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "MockTestFixture"
+        ],
+        "parameters": {
+          "TargetMethod": "SomeClassName",
+          "Size": "5"
+        }
+      },
+      {
+        "name": "TestCase",
+        "status": "passed",
+        "duration": 0,
+        "suite": [
+          "OneTestCase"
+        ]
+      },
+      {
+        "name": "MyTest",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "MockTestFixture"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,4051 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2026-06-11T19:33:42.580Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 501,
+      "passed": 487,
+      "failed": 1,
+      "skipped": 13,
+      "pending": 0,
+      "other": 0,
+      "start": 1781206422580,
+      "stop": 1781206542580,
+      "suites": 1,
+      "duration": 120000
+    },
+    "tests": [
+      {
+        "name": "testJuValues",
+        "status": "passed",
+        "duration": 19,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBjerksundStenslandValues",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFDDividendAmericanEngine",
+        "status": "passed",
+        "duration": 19,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFdImpliedVol",
+        "status": "passed",
+        "duration": 30,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFdValues",
+        "status": "passed",
+        "duration": 148,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFdAmericanGreeks",
+        "status": "passed",
+        "duration": 3772,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBaroneAdesiWhaleyValues",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFdShoutGreeks",
+        "status": "passed",
+        "duration": 3430,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAnalyticContinuousGeometricAveragePriceGreeks",
+        "status": "passed",
+        "duration": 25,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testMCDiscreteGeometricAveragePrice",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAnalyticDiscreteGeometricAveragePrice",
+        "status": "passed",
+        "duration": 4,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testIssue115",
+        "status": "passed",
+        "duration": 12,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAnalyticDiscreteGeometricAveragePriceGreeks",
+        "status": "passed",
+        "duration": 35,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAnalyticDiscreteGeometricAverageStrike",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAnalyticContinuousGeometricAveragePrice",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSpecializedBondVsGenericBondUsingAsw",
+        "status": "passed",
+        "duration": 108,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testImpliedValue",
+        "status": "passed",
+        "duration": 24,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testConsistency",
+        "status": "passed",
+        "duration": 8,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testZSpread",
+        "status": "passed",
+        "duration": 21,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testGenericBondImplied",
+        "status": "passed",
+        "duration": 21,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testMarketASWSpread",
+        "status": "passed",
+        "duration": 17,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testMASWWithGenericBond",
+        "status": "passed",
+        "duration": 17,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSpecializedBondVsGenericBond",
+        "status": "passed",
+        "duration": 28,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testZSpreadWithGenericBond",
+        "status": "passed",
+        "duration": 21,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBabsiriValues",
+        "status": "passed",
+        "duration": 2946,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testVannaVolgaSimpleBarrierValues",
+        "status": "passed",
+        "duration": 27,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBeagleholeValues",
+        "status": "passed",
+        "duration": 225,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testHaugValues",
+        "status": "passed",
+        "duration": 5951,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testLocalVolAndHestonComparison",
+        "status": "passed",
+        "duration": 1438,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testIborIborBaseCurveBootstrap",
+        "status": "passed",
+        "duration": 27,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testIborIborOtherCurveBootstrap",
+        "status": "passed",
+        "duration": 16,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testOvernightIborBootstrapNoDiscountCurve",
+        "status": "passed",
+        "duration": 255,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testOvernightIborBootstrapWithDiscountCurve",
+        "status": "passed",
+        "duration": 226,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testEuroTwoValues",
+        "status": "passed",
+        "duration": 12,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBatchDurationCalculation",
+        "status": "passed",
+        "duration": 410,
+        "suite": [
+          "QLNet.Tests.dll"
+        ],
+        "stdout": [
+          "Calculated 2 duration in 4ms"
+        ]
+      },
+      {
+        "name": "testBatchAccruedDaysAndAmountCalculation",
+        "status": "passed",
+        "duration": 21,
+        "suite": [
+          "QLNet.Tests.dll"
+        ],
+        "stdout": [
+          "Calculated 2 accrued days and amount in 2ms"
+        ]
+      },
+      {
+        "name": "testBatchWalCalculation",
+        "status": "passed",
+        "duration": 15,
+        "suite": [
+          "QLNet.Tests.dll"
+        ],
+        "stdout": [
+          "Calculated 2 wal in 3ms"
+        ]
+      },
+      {
+        "name": "testBatchYieldCalculation",
+        "status": "passed",
+        "duration": 18,
+        "suite": [
+          "QLNet.Tests.dll"
+        ],
+        "stdout": [
+          "Calculated 2 yields in 4ms"
+        ]
+      },
+      {
+        "name": "testBatchAllBondFunctionsCalculation",
+        "status": "passed",
+        "duration": 17,
+        "suite": [
+          "QLNet.Tests.dll"
+        ],
+        "stdout": [
+          "Calculated 2 bond functions in 3ms"
+        ]
+      },
+      {
+        "name": "testCachedValues",
+        "status": "passed",
+        "duration": 200,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAssetOrNothingHaugValues",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCashOrNothingHaugValues",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDeltaValues",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testPutCallParity",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDeltaPriceConsistency",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAtmCalcs",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testChambersImpliedVol",
+        "status": "passed",
+        "duration": 30,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBachelierImpliedVol",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDurations(Cusip: \"546415L40\", MaturityDate: \"05/15/2033\", Coupon: 4, SettlementDate: \"07/10/2018\", Price: 104.239, ExpectedModifiedDuration: 11.154, ExpectedOASDuration: 7.71)",
+        "status": "passed",
+        "duration": 7,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDurations(Cusip: \"64990C4X6\", MaturityDate: \"07/01/2035\", Coupon: 4, SettlementDate: \"07/10/2018\", Price: 106.599, ExpectedModifiedDuration: 12.417, ExpectedOASDuration: 10.24)",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDurations(Cusip: \"64990C5B3\", MaturityDate: \"07/01/2047\", Coupon: 4, SettlementDate: \"07/10/2018\", Price: 103.90000000000001, ExpectedModifiedDuration: 17.295999999999999, ExpectedOASDuration: 12.869999999999999)",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDurations(Cusip: \"70024PCW7\", MaturityDate: \"06/15/2028\", Coupon: 4, SettlementDate: \"07/10/2018\", Price: 110.839, ExpectedModifiedDuration: 8.2569999999999997, ExpectedOASDuration: 7.8200000000000003)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDurations(Cusip: \"646140CN1\", MaturityDate: \"01/01/2035\", Coupon: 4, SettlementDate: \"07/10/2018\", Price: 105.262, ExpectedModifiedDuration: 12.118, ExpectedOASDuration: 10.59)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccruedInterest(Coupon: 5.375, AccrualDate: \"08/26/2010\", MaturityDate: \"03/01/2023\", SettlementDate: \"7/16/2018\", FirstCouponDate: \"\", expectedAccruedInterest: 20.155999999999999, expectedAccruedDays: 135)",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccruedInterest(Coupon: 5.25, AccrualDate: \"2/13/2018\", MaturityDate: \"12/01/2032\", SettlementDate: \"3/23/2018\", FirstCouponDate: \"\", expectedAccruedInterest: 5.8330000000000002, expectedAccruedDays: 40)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccruedInterest(Coupon: 2.2000000000000002, AccrualDate: \"3/1/2018\", MaturityDate: \"3/1/2021\", SettlementDate: \"3/26/2018\", FirstCouponDate: \"\", expectedAccruedInterest: 1.53, expectedAccruedDays: 25)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccruedInterest(Coupon: 0, AccrualDate: \"3/15/2018\", MaturityDate: \"1/1/2054\", SettlementDate: \"3/26/2018\", FirstCouponDate: \"\", expectedAccruedInterest: 0, expectedAccruedDays: 0)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccruedInterest(Coupon: 2.25, AccrualDate: \"3/1/2018\", MaturityDate: \"3/1/2021\", SettlementDate: \"3/26/2018\", FirstCouponDate: \"\", expectedAccruedInterest: 1.5600000000000001, expectedAccruedDays: 25)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccruedInterest(Coupon: 3, AccrualDate: \"2/15/2018\", MaturityDate: \"2/15/2031\", SettlementDate: \"3/26/2018\", FirstCouponDate: \"\", expectedAccruedInterest: 3.4199999999999999, expectedAccruedDays: 41)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccruedInterest(Coupon: 2.8500000000000001, AccrualDate: \"2/15/2018\", MaturityDate: \"2/15/2031\", SettlementDate: \"3/26/2018\", FirstCouponDate: \"\", expectedAccruedInterest: 3.25, expectedAccruedDays: 41)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccruedInterest(Coupon: 4, AccrualDate: \"2/1/2018\", MaturityDate: \"2/15/2027\", SettlementDate: \"3/26/2018\", FirstCouponDate: \"08/15/2018\", expectedAccruedInterest: 6.1100000000000003, expectedAccruedDays: 55)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccruedInterest(Coupon: 4, AccrualDate: \"2/20/2018\", MaturityDate: \"10/1/2036\", SettlementDate: \"3/26/2018\", FirstCouponDate: \"\", expectedAccruedInterest: 4, expectedAccruedDays: 36)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccruedInterest(Coupon: 1.8500000000000001, AccrualDate: \"2/1/2018\", MaturityDate: \"2/1/2021\", SettlementDate: \"3/26/2018\", FirstCouponDate: \"\", expectedAccruedInterest: 2.8300000000000001, expectedAccruedDays: 55)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testQLNetExceptions(Coupon: 2.2000000000000002, AccrualDate: \"10/22/2014\", MaturityDate: \"10/22/2019\", SettlementDate: \"12/24/2018\", FirstCouponDate: \"4/22/2015\", Price: 994.26300000000003)",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testQLNetExceptions(Coupon: 1.8500000000000001, AccrualDate: \"11/23/2015\", MaturityDate: \"11/23/2018\", SettlementDate: \"11/23/2018\", FirstCouponDate: \"5/23/2016\", Price: 100.85469999999999)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testExCouponAustralianBond",
+        "status": "passed",
+        "duration": 4,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBasisPointValue(settlementDate: \"\", bpv: -795.459834, yvbp: -0.0012571287)",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBasisPointValue(settlementDate: \"01/30/2024\", bpv: -795.459834, yvbp: -0.0012571287)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBasisPointValue(settlementDate: \"02/12/2024\", bpv: -793.14903300000003, yvbp: -0.0012607912999999999)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testWeightedAverageLife",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testMBSFixedBondCached",
+        "status": "passed",
+        "duration": 8,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBondEquivalentYield(price: 99.9195, IssueDate: \"06/09/2021\", MaturityDate: \"06/09/2022\", SettlementDate: \"03/29/2022\", expectedYield: 0.0040841899999999997)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBondEquivalentYield(price: 96.323, IssueDate: \"02/22/2023\", MaturityDate: \"02/22/2024\", SettlementDate: \"05/17/2023\", expectedYield: 0.049161389999999999)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBondEquivalentYield(price: 98.5826771, IssueDate: \"02/23/2023\", MaturityDate: \"02/23/2023\", SettlementDate: \"05/20/2022\", expectedYield: 0.01874783)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBondEquivalentYield(price: 99.9788542, IssueDate: \"01/01/2022\", MaturityDate: \"05/10/2022\", SettlementDate: \"03/29/2022\", expectedYield: 0.0018380600000000001)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBondEquivalentYield(price: 99.5947639, IssueDate: \"09/08/2021\", MaturityDate: \"09/08/2022\", SettlementDate: \"03/29/2022\", expectedYield: 0.0091112299999999997)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBondEquivalentYield(price: 98.5826771, IssueDate: \"02/23/2022\", MaturityDate: \"02/23/2023\", SettlementDate: \"02/01/2023\", expectedYield: 0.23852746)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testThirty360BondWithSettlementOn31st",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCachedFloating",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAmortizingFixedBond",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBondFromScheduleWithDateVector",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testExCouponGilt",
+        "status": "passed",
+        "duration": 5,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testYield",
+        "status": "passed",
+        "duration": 654,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testTheoretical",
+        "status": "passed",
+        "duration": 39,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSteppedCoupon",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAmortizingBond1",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCached",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCachedZero",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCachedFixed",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBrazilianCached",
+        "status": "passed",
+        "duration": 9,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAmortizingFixedRateBond",
+        "status": "passed",
+        "duration": 12,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAmortizingBond2",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testConventions",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testTARGET",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUsGovernmentBondMarketEarlyClose(expectedEarlyClose: \"2024/03/28\")",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUsGovernmentBondMarketEarlyClose(expectedEarlyClose: \"2023/12/22\")",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUsGovernmentBondMarketEarlyClose(expectedEarlyClose: \"2024/05/24\")",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUsGovernmentBondMarketEarlyClose(expectedEarlyClose: \"2023/05/26\")",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUsGovernmentBondMarketEarlyClose(expectedEarlyClose: \"2022/12/30\")",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUsGovernmentBondMarketEarlyClose(expectedEarlyClose: \"2024/12/31\")",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUsGovernmentBondMarketEarlyClose(expectedEarlyClose: \"2024/11/29\")",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUsGovernmentBondMarketEarlyClose(expectedEarlyClose: \"2023/07/03\")",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUsGovernmentBondMarketEarlyClose(expectedEarlyClose: \"2023/12/29\")",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUsGovernmentBondMarketEarlyClose(expectedEarlyClose: \"2024/12/24\")",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUsGovernmentBondMarketEarlyClose(expectedEarlyClose: \"2024/07/03\")",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUsGovernmentBondMarketEarlyClose(expectedEarlyClose: \"2023/11/24\")",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUsGovernmentBondMarketEarlyClose(expectedEarlyClose: \"2023/04/07\")",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSouthKoreanSettlement",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testGermanyEurex",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testNZIB_matarikiDay(day: \"2022-06-25\", expectedIsBusinessDay: False, expectedIsHoliday: True)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testNZIB_matarikiDay(day: \"2022-07-08\", expectedIsBusinessDay: True, expectedIsHoliday: False)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testNZIB_matarikiDay(day: \"2022-06-24\", expectedIsBusinessDay: False, expectedIsHoliday: True)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testJointCalendars",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testChinaIB",
+        "status": "passed",
+        "duration": 18,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUSNewYorkStockExchange",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testModifiedCalendars",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBespokeCalendars",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testGermanyFrankfurt",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBrazil",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUKMetals",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUSGovernmentBondMarket",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testChinaSSE",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBusinessDaysBetween",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testKoreaStockExchange",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testEndOfMonth",
+        "status": "passed",
+        "duration": 43,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testItalyExchange",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testStartOfMonth",
+        "status": "passed",
+        "duration": 61,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testGermanyXetra",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testMexicoInaugurationDay",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testChileCalendar2025(expectedHolidaysArray: [\"2025/01/01\", \"2025/04/18\", \"2025/05/01\", \"2025/05/21\", \"2025/06/20\", ···])",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUSSettlement",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUKExchange",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUKSettlement",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDenmark",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testImpliedVol",
+        "status": "failed",
+        "duration": 6,
+        "suite": [
+          "QLNet.Tests.dll"
+        ],
+        "message": "System.ArgumentException : root not bracketed: f[0.0001,1] -> [713.0585008622056,24.93951038996056]",
+        "trace": "at QLNet.Utils.QL_REQUIRE(Boolean condition, Func`1 message, QLNetExceptionEnum exEnum) in C:\\Users\\projects\\Dev\\QLNet\\src\\QLNet\\Utils.cs:line 118\n   at QLNet.Solver1D.solve(ISolver1d f, Double accuracy, Double guess, Double xMin, Double xMax) in C:\\Users\\projects\\Dev\\QLNet\\src\\QLNet\\Math\\Solver1d.cs:line 175\n   at QLNet.CallableBond.impliedVolatility(Price targetPrice, Handle`1 discountCurve, Double accuracy, Int32 maxEvaluations, Double minVol, Double maxVol) in C:\\Users\\projects\\Dev\\QLNet\\src\\QLNet\\Instruments\\Bonds\\CallableBond.cs:line 212\n   at TestSuite.CallableBondsTests.testImpliedVol() in C:\\Users\\projects\\Dev\\QLNet\\tests\\QLNet.Tests\\T_CallableBonds.cs:line 640\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+      },
+      {
+        "name": "testInterplay",
+        "status": "passed",
+        "duration": 598,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testConsistency",
+        "status": "passed",
+        "duration": 222,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testObservability",
+        "status": "passed",
+        "duration": 226,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDegenerate",
+        "status": "passed",
+        "duration": 440,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCached",
+        "status": "passed",
+        "duration": 315,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBlackEngine",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSnappingExerciseDate2ClosestCouponDate",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testImpliedVolatility",
+        "status": "passed",
+        "duration": 51,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testConsistency",
+        "status": "passed",
+        "duration": 331,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testATMRate",
+        "status": "passed",
+        "duration": 67,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testParity",
+        "status": "passed",
+        "duration": 99,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testVega",
+        "status": "passed",
+        "duration": 372,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testStrikeDependency",
+        "status": "passed",
+        "duration": 50,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCachedValue",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDecomposition",
+        "status": "passed",
+        "duration": 9,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testLargeRates",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSettings",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDefaultSettlementDate",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccessViolation",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testNullFixingDays",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCatBondWithDoomOnceInTenYears",
+        "status": "passed",
+        "duration": 7,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCatBondInDoomScenario",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testEventSetForWholeYears",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testRiskFreeAgainstFloatingRateBond",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCatBondWithDoomOnceInTenYearsProportional",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testEventSetForIrregularPeriods",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testEventSetForNoEvents",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testPerformanceGreeks",
+        "status": "passed",
+        "duration": 154,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testGreeks",
+        "status": "passed",
+        "duration": 135,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testValues",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCmsSwap",
+        "status": "passed",
+        "duration": 309,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testParity",
+        "status": "passed",
+        "duration": 216,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFairRate",
+        "status": "passed",
+        "duration": 5,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBond",
+        "status": "passed",
+        "duration": 296,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testRegression",
+        "status": "passed",
+        "duration": 12,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testOption",
+        "status": "passed",
+        "duration": 124,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "cpibondconsistency",
+        "status": "passed",
+        "duration": 17,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "zciisconsistency",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "consistency",
+        "status": "passed",
+        "duration": 7,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testIsdaEngine",
+        "status": "passed",
+        "duration": 43,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFairUpfront",
+        "status": "passed",
+        "duration": 11,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCachedValue",
+        "status": "passed",
+        "duration": 16,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCachedMarketValue",
+        "status": "passed",
+        "duration": 10,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testImpliedHazardRate",
+        "status": "passed",
+        "duration": 13,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFairSpread",
+        "status": "passed",
+        "duration": 8,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testIMMDates",
+        "status": "passed",
+        "duration": 1624,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testConsistency",
+        "status": "passed",
+        "duration": 11,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testECBDates",
+        "status": "passed",
+        "duration": 4,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testASXDates",
+        "status": "passed",
+        "duration": 5201,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testIntraday",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDefaultProbability",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFlatHazardConsistency",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFlatHazardRate",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAssetOrNothingDeepInTheMoney",
+        "status": "passed",
+        "duration": 4,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testReplicationType",
+        "status": "passed",
+        "duration": 38,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCashOrNothingDeepInTheMoney",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCashOrNothing",
+        "status": "passed",
+        "duration": 13,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCashOrNothingDeepOutTheMoney",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCallPutParity",
+        "status": "passed",
+        "duration": 19,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAssetOrNothing",
+        "status": "passed",
+        "duration": 4,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAssetOrNothingDeepOutTheMoney",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCashOrNothingEuropeanValues",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCashAtHitOrNothingAmericanGreeks",
+        "status": "passed",
+        "duration": 24,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testGapEuropeanValues",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCashAtExpiryOrNothingAmericanValues",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAssetOrNothingEuropeanValues",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAssetAtExpiryOrNothingAmericanValues",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCashAtHitOrNothingAmericanValues",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAssetAtHitOrNothingAmericanValues",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testEuropeanValues",
+        "status": "passed",
+        "duration": 18,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFdAmericanDegenerate",
+        "status": "passed",
+        "duration": 305,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFdAmericanGreeks",
+        "status": "passed",
+        "duration": 7499,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFdEuropeanGreeks",
+        "status": "passed",
+        "duration": 5875,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testEuropeanStartLimit",
+        "status": "passed",
+        "duration": 18,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFdEuropeanValues",
+        "status": "passed",
+        "duration": 921,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFdEuropeanDegenerate",
+        "status": "passed",
+        "duration": 249,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testEuropeanGreeks",
+        "status": "passed",
+        "duration": 6428,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testEuropeanHaugValues",
+        "status": "passed",
+        "duration": 19,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testVannaVolgaDoubleBarrierValues",
+        "status": "passed",
+        "duration": 49,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testHaugValues",
+        "status": "passed",
+        "duration": 1046,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testEQPBinomialEngines",
+        "status": "passed",
+        "duration": 261,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFdEngines",
+        "status": "passed",
+        "duration": 876,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testJOSHIBinomialEngines",
+        "status": "passed",
+        "duration": 74,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testTGEOBinomialEngines",
+        "status": "passed",
+        "duration": 72,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testTIANBinomialEngines",
+        "status": "passed",
+        "duration": 74,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testJRBinomialEngines",
+        "status": "passed",
+        "duration": 72,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCRRBinomialEngines",
+        "status": "passed",
+        "duration": 258,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testLRBinomialEngines",
+        "status": "passed",
+        "duration": 73,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testTriangulatedLookup",
+        "status": "passed",
+        "duration": 4,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDirectLookup",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDerived",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDirect",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSmartLookup",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFFTInverse",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFFTSimple",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSpareMatrixReference",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFdmMesherIntegral",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSecondOrderMixedDerivativesMapApply",
+        "status": "passed",
+        "duration": 576,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUniformGridMesher",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFdmLinearOpLayout",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testTripleBandMapSolve",
+        "status": "passed",
+        "duration": 90,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSecondDerivativesMapApply",
+        "status": "passed",
+        "duration": 138,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDerivativeWeightsOnNonUniformGrids",
+        "status": "passed",
+        "duration": 329,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFirstDerivativesMapApply",
+        "status": "passed",
+        "duration": 868,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCrankNicolsonWithDamping",
+        "status": "passed",
+        "duration": 7,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testPerformanceGreeks",
+        "status": "passed",
+        "duration": 1117,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testGreeks",
+        "status": "passed",
+        "duration": 1185,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testGreeksInitialization",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testValues",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testPerformanceValues",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testWeightedModifiedBesselFunctions",
+        "status": "passed",
+        "duration": 60,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testGammaValues",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testGammaFunction",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFactorial",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testModifiedBesselFunctions",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testExpansionOnFordeReference",
+        "status": "passed",
+        "duration": 8,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBlackCalibration",
+        "status": "passed",
+        "duration": 443,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testMcVsCached",
+        "status": "passed",
+        "duration": 404,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAnalyticPiecewiseTimeDependent",
+        "status": "passed",
+        "duration": 13,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testExpansionOnAlanLewisReference",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDifferentIntegrals",
+        "status": "passed",
+        "duration": 5801,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDAXCalibration",
+        "status": "passed",
+        "duration": 591,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAlanLewisReferencePrices",
+        "status": "passed",
+        "duration": 79,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDAXCalibrationOfTimeDependentModel",
+        "status": "passed",
+        "duration": 4335,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAnalyticVsCached",
+        "status": "passed",
+        "duration": 29,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testH1HWPricingEngine",
+        "status": "passed",
+        "duration": 74,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testZeroBondPricing",
+        "status": "passed",
+        "duration": 5839,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBsmHullWhiteEngine",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testMcPureHestonPricing",
+        "status": "passed",
+        "duration": 554,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCallableEquityPricing",
+        "status": "passed",
+        "duration": 854,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAnalyticHestonHullWhitePricing",
+        "status": "passed",
+        "duration": 117,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDiscretizationError",
+        "status": "passed",
+        "duration": 1719,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testMcVanillaPricing",
+        "status": "passed",
+        "duration": 495,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCompareBsmHWandHestonHW",
+        "status": "passed",
+        "duration": 31,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testZeroTermStructure",
+        "status": "passed",
+        "duration": 15,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testZeroIndex",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testYYIndex",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testYYTermStructure",
+        "status": "passed",
+        "duration": 11,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDecomposition",
+        "status": "passed",
+        "duration": 13,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testInstrumentEquality",
+        "status": "passed",
+        "duration": 295,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCachedValue",
+        "status": "passed",
+        "duration": 15,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testParity",
+        "status": "passed",
+        "duration": 155,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testConsistency",
+        "status": "passed",
+        "duration": 2777,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "cpicapfloorpricesurface",
+        "status": "passed",
+        "duration": 16,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "cpicapfloorpricer",
+        "status": "passed",
+        "duration": 5,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testObservable",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testConversions",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSimmetricEndConditions",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testForwardFlat",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testNormalSabrInterpolation",
+        "status": "passed",
+        "duration": 297,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDerivativeEndConditions",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSplineOnGaussianValues",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSabrInterpolation",
+        "status": "passed",
+        "duration": 653,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSplineErrorOnGaussianValues",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBicubicDerivatives",
+        "status": "passed",
+        "duration": 741,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testKernelInterpolation",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testNonRestrictiveHymanFilter",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSplineOnGenericValues",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSplineOnRPN15AValues",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSabrSingleCases",
+        "status": "passed",
+        "duration": 10,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBicubicUpdate",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAsFunctor",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testKernelInterpolation2D",
+        "status": "passed",
+        "duration": 7,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBackwardFlat",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testRichardsonExtrapolation",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCapletPricing",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSwaptionPricing",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSimpleCovarianceModels",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCalibration",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testMonteCarloCapletPricing",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testInitialisation",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testLambdaBootstrapping",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testMultiDimRegression",
+        "status": "passed",
+        "duration": 305,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "test1dLinearRegression",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testRegression",
+        "status": "passed",
+        "duration": 1064,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAnalyticContinuousFixedLookback",
+        "status": "passed",
+        "duration": 4,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAnalyticContinuousFloatingLookback",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAnalyticContinuousPartialFloatingLookback",
+        "status": "passed",
+        "duration": 4,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAnalyticContinuousPartialFixedLookback",
+        "status": "passed",
+        "duration": 4,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSobolSkipping",
+        "status": "passed",
+        "duration": 3808,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testHalton",
+        "status": "passed",
+        "duration": 96,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSobol",
+        "status": "passed",
+        "duration": 139,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testPolynomialsModuloTwo",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSqrt",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSVD",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testQRDecomposition",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testQRSolve",
+        "status": "passed",
+        "duration": 231,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testHighamSqrt",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testEigenvectors",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testInverse",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBaseCurrency",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAutomated",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testNone",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBSMOperatorConsistency",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testOperatorConsistency",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "OptimizersTest",
+        "status": "passed",
+        "duration": 5,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDifferentialEvolution",
+        "status": "passed",
+        "duration": 6531,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "nestedOptimizationTest",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFunctionValueEqualsCostFunctionAtCurrentValue",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFlatTermVolatilityStripping2",
+        "status": "passed",
+        "duration": 49,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFlatTermVolatilityStripping1",
+        "status": "passed",
+        "duration": 53,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testTermVolatilityStripping1",
+        "status": "passed",
+        "duration": 620,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testTermVolatilityStripping2",
+        "status": "passed",
+        "duration": 535,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccruedAmountSpanningToday",
+        "status": "passed",
+        "duration": 37,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCurrentCouponRate",
+        "status": "passed",
+        "duration": 35,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccruedAmountOnFutureHoliday",
+        "status": "passed",
+        "duration": 33,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFutureCouponRate",
+        "status": "passed",
+        "duration": 34,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccruedAmountOnPastHoliday",
+        "status": "passed",
+        "duration": 34,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testPastCouponRate",
+        "status": "passed",
+        "duration": 32,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testRateWhenTodayIsHoliday",
+        "status": "passed",
+        "duration": 48,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccruedAmountInTheFuture",
+        "status": "passed",
+        "duration": 32,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccruedAmountInThePast",
+        "status": "passed",
+        "duration": 33,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCachedValue",
+        "status": "passed",
+        "duration": 53,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBootstrap",
+        "status": "passed",
+        "duration": 1625,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFairRate",
+        "status": "passed",
+        "duration": 2305,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFairSpread",
+        "status": "passed",
+        "duration": 2013,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testMultiPathGenerator",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testPathGenerator",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testLinearDiscountConsistency",
+        "status": "passed",
+        "duration": 1361,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testObservability",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testLinearZeroConsistency",
+        "status": "passed",
+        "duration": 755,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testLocalBootstrapConsistency",
+        "status": "passed",
+        "duration": 683,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testZeroCopy",
+        "status": "passed",
+        "duration": 50,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testForwardCopy",
+        "status": "passed",
+        "duration": 47,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testLogLinearZeroConsistency",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFlatForwardConsistency",
+        "status": "passed",
+        "duration": 199,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSplineZeroConsistency",
+        "status": "passed",
+        "duration": 500,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testForwardRateDayCounter",
+        "status": "passed",
+        "duration": 40,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testLiborFixing",
+        "status": "passed",
+        "duration": 56,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testLinearForwardConsistency",
+        "status": "passed",
+        "duration": 205,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testJpyLibor",
+        "status": "passed",
+        "duration": 106,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testLogLinearDiscountConsistency",
+        "status": "passed",
+        "duration": 322,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDiscountCopy",
+        "status": "passed",
+        "duration": 48,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testConvexMonotoneForwardConsistency",
+        "status": "passed",
+        "duration": 747,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDefaultInterpolation",
+        "status": "passed",
+        "duration": 15,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFlatInterpolationRight",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFlatInterpolationLeft",
+        "status": "passed",
+        "duration": 5,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testLinearInterpolation",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testMaxDate",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testQuoteChanging",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSetInterpolationFactory",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testLinearInterpolationMultipleSpreads",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBackwardFlatInterpolation",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testForwardFlatInterpolation",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCashedValues",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDerived",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testObservable",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testComposite",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testObservableHandle",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "RiskStatisticsTest",
+        "status": "passed",
+        "duration": 828,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCustomPoisson",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testGaussian",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDefaultPoisson",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDown",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testUp",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testClosest",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFloor",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCeiling",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testConstruction",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testEffectiveDateWithEomAdjustment",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFourWeeksTenor",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAccrualDateWithEomAdjustment",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDatesPastEndDateWithEomAdjustment",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCDS2015ZeroMonthsMatured",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testOnceFrequency",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCDS2015ConventionSampleDates",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testTruncation",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testNextToLastWithEomAdjustment",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDatesSameAsEndDateWithEomAdjustment",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testOldCDSConventionSampleDates",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCDSConventionSampleDates",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFirstDateOnMaturity",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testOldCDSConventionGrid",
+        "status": "passed",
+        "duration": 5,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFirstDateWithEomAdjustment",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testEndDateWithEomAdjustment",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testScheduleAlwaysHasAStartDate",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDailySchedule",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDateConstructor",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testShortEomSchedule",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCDS2015ConventionGrid",
+        "status": "passed",
+        "duration": 3,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCDSConventionGrid",
+        "status": "passed",
+        "duration": 4,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testDoubleFirstDateWithEomAdjustment",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testNextToLastDateOnStart",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testForwardDatesWithEomAdjustment",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testPreviousDateAndNextDate",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCDS2015Convention",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBackwardDatesWithEomAdjustment",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCachedHullWhite",
+        "status": "passed",
+        "duration": 20,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFuturesConvexityBias",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSwaps",
+        "status": "passed",
+        "duration": 1244,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBootstrap",
+        "status": "passed",
+        "duration": 4,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBrent",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testNewton",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSecant",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testRidder",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBisection",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFalsePosition",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testKirkEngine",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testConvergenceStatistics",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testIncrementalStatistics",
+        "status": "passed",
+        "duration": 42,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSequenceStatistics",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testStatistics",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCalibration",
+        "status": "skipped",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSpreadDependency",
+        "status": "passed",
+        "duration": 18,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFixing",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testThirdWednesdayAdjustment",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testInArrears",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCachedValue",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFairRate",
+        "status": "passed",
+        "duration": 8,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFairSpread",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testRateDependency",
+        "status": "passed",
+        "duration": 18,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testVega",
+        "status": "passed",
+        "duration": 876,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testStrikeDependency",
+        "status": "passed",
+        "duration": 142,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSpreadDependency",
+        "status": "passed",
+        "duration": 145,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCachedValue",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSpreadTreatment",
+        "status": "passed",
+        "duration": 295,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCashSettledSwaptions",
+        "status": "passed",
+        "duration": 63,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testImpliedVolatility",
+        "status": "passed",
+        "duration": 4901,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSwaptionVolMatrixObservability",
+        "status": "passed",
+        "duration": 4,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSwaptionVolMatrixCoherence",
+        "status": "passed",
+        "duration": 105,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testZSpreaded",
+        "status": "passed",
+        "duration": 7,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testImplied",
+        "status": "passed",
+        "duration": 9,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testReferenceChange",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCompositeZeroYieldStructures",
+        "status": "passed",
+        "duration": 5,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFSpreaded",
+        "status": "passed",
+        "duration": 10,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testInterpolatedZeroCurveWithRefDateAndTenorDates",
+        "status": "passed",
+        "duration": 5,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testImpliedObs",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testZSpreadedObs",
+        "status": "passed",
+        "duration": 10,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testFSpreadedObs",
+        "status": "passed",
+        "duration": 26,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testConstructorAdditionalSteps",
+        "status": "passed",
+        "duration": 5,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testMandatoryTimes",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testConstructorMandatorySteps",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testConstructorEvenSteps",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testClosestTime",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testConstructorNegativeValuesInIterator",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testClosestIndex",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testConstructorEmptyIterator",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testEquals",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testCloneICloneable",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testClone",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testHashCode",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testThirty365",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testActualActualIsma(isEndOfMonth: False, frequency: Semiannual, interestAccrualDateAsString: \"1999-01-30\", maturityDateAsString: \"2000-06-30\", firstCouponDateAsString: \"1999-07-30\", penultimateCouponDateAsString: \"2000-01-30\", d1AsString: \"1999-07-30\", d2AsString: \"2000-01-30\", expectedYearFraction: 0.5)",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testActualActualIsma(isEndOfMonth: False, frequency: Quarterly, interestAccrualDateAsString: \"1999-05-31\", maturityDateAsString: \"2000-04-30\", firstCouponDateAsString: \"1999-08-31\", penultimateCouponDateAsString: \"1999-11-30\", d1AsString: \"1999-11-30\", d2AsString: \"2000-04-30\", expectedYearFraction: 0.41944444444444445)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testActualActualIsma(isEndOfMonth: False, frequency: Semiannual, interestAccrualDateAsString: \"2002-08-15\", maturityDateAsString: \"2005-07-15\", firstCouponDateAsString: \"2003-07-15\", penultimateCouponDateAsString: \"2004-07-15\", d1AsString: \"2003-07-15\", d2AsString: \"2004-01-15\", expectedYearFraction: 0.5)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testActualActualIsma(isEndOfMonth: False, frequency: Semiannual, interestAccrualDateAsString: \"2002-08-15\", maturityDateAsString: \"2005-07-15\", firstCouponDateAsString: \"2003-07-15\", penultimateCouponDateAsString: \"2004-07-15\", d1AsString: \"2002-08-15\", d2AsString: \"2003-07-15\", expectedYearFraction: 0.91576086956521741)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testActualActualIsma(isEndOfMonth: True, frequency: Quarterly, interestAccrualDateAsString: \"1999-05-31\", maturityDateAsString: \"2000-04-30\", firstCouponDateAsString: \"1999-08-31\", penultimateCouponDateAsString: \"1999-11-30\", d1AsString: \"1999-11-30\", d2AsString: \"2000-04-30\", expectedYearFraction: 0.41576086956521741)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testActualActualIsma(isEndOfMonth: False, frequency: Annual, interestAccrualDateAsString: \"1999-02-01\", maturityDateAsString: \"2002-07-01\", firstCouponDateAsString: \"1999-07-01\", penultimateCouponDateAsString: \"2001-07-01\", d1AsString: \"1999-07-01\", d2AsString: \"2000-07-01\", expectedYearFraction: 1)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testActualActualIsma(isEndOfMonth: False, frequency: Semiannual, interestAccrualDateAsString: \"1999-01-30\", maturityDateAsString: \"2000-06-30\", firstCouponDateAsString: \"1999-07-30\", penultimateCouponDateAsString: \"2000-01-30\", d1AsString: \"2000-01-30\", d2AsString: \"2000-06-30\", expectedYearFraction: 0.4175824175824176)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testActualActualIsma(isEndOfMonth: False, frequency: Semiannual, interestAccrualDateAsString: \"2003-05-01\", maturityDateAsString: \"2005-05-01\", firstCouponDateAsString: \"2003-11-01\", penultimateCouponDateAsString: \"2004-11-01\", d1AsString: \"2003-11-01\", d2AsString: \"2004-05-01\", expectedYearFraction: 0.5)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testActualActualIsma(isEndOfMonth: False, frequency: Annual, interestAccrualDateAsString: \"1999-02-01\", maturityDateAsString: \"2002-07-01\", firstCouponDateAsString: \"1999-07-01\", penultimateCouponDateAsString: \"2001-07-01\", d1AsString: \"1999-02-01\", d2AsString: \"1999-07-01\", expectedYearFraction: 0.41095890410958902)",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testActualActualOutOfScheduleRange",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testThirty360_ISDA",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testThirty360_EurobondBasis",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testActualActualWithSchedule",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testIntraday",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAct36525",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testActualActualWithSemiannualSchedule",
+        "status": "passed",
+        "duration": 17,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testAct366",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testActualActualWithAnnualSchedule",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testOne",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testActualActual",
+        "status": "passed",
+        "duration": 2,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testSimple",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testBusiness252",
+        "status": "passed",
+        "duration": 4,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testActual365_Canadian",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      },
+      {
+        "name": "testThirty360_BondBasis",
+        "status": "passed",
+        "duration": 1,
+        "suite": [
+          "QLNet.Tests.dll"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "generatedBy": "ctrf-converter v1.0.0",
+  "timestamp": "2026-06-11T19:33:42.258Z",
+  "results": {
+    "tool": {
+      "name": "ctrf-converter",
+      "version": "1.0.0"
+    },
+    "summary": {
+      "tests": 4,
+      "passed": 2,
+      "failed": 1,
+      "skipped": 1,
+      "pending": 0,
+      "other": 0,
+      "start": 1781206422258,
+      "stop": 1781206423296,
+      "suites": 1,
+      "duration": 1038
+    },
+    "tests": [
+      {
+        "name": "Failing_test",
+        "status": "failed",
+        "duration": 31,
+        "suite": [
+          "MsTestSample.SimpleTests"
+        ],
+        "message": "Assert.Fail failed. Failing for demo purposes",
+        "trace": "at MsTestSample.SimpleTests.Failing_test() in D:\\Work-Git\\github\\Mini\\trx2junit\\samples\\MsTestSample\\SimpleTests.cs:line 20"
+      },
+      {
+        "name": "Ignored_test",
+        "status": "skipped",
+        "duration": 0,
+        "suite": [
+          "MsTestSample.SimpleTests"
+        ],
+        "stdout": [
+          "Ignoring for testing ;-)"
+        ]
+      },
+      {
+        "name": "Passing_test",
+        "status": "passed",
+        "duration": 6,
+        "suite": [
+          "MsTestSample.SimpleTests"
+        ]
+      },
+      {
+        "name": "Slow_test",
+        "status": "passed",
+        "duration": 1002,
+        "suite": [
+          "MsTestSample.SimpleTests"
+        ]
+      }
+    ]
+  }
+}
