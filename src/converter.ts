@@ -105,7 +105,24 @@ export class Converter {
                     test.stderr = Array.isArray(testcase['system-err']) ? testcase['system-err'].map((o: any) => o.$t) : [testcase['system-err'].$t];
                 }
 
-                
+                if(testcase.skipped && testcase.skipped.length !== 0 && testcase.skipped[0].message) {
+                    //console.log(`Test '${test.name}' was skipped with message: ${testcase.skipped[0].message}`);
+                    if(test.stdout && test.stdout.length > 0) {
+                        let message = test.stdout[0].replaceAll('\n', ' ').toLowerCase();
+                        // console.log(`Test '${test.name}' skipped message: ${testcase.skipped[0].message.toLowerCase()}`);
+                        // console.log(`Test '${test.name}' stdout message: ${message}`);
+                        // console.log(message == testcase.skipped[0].message.toLowerCase())
+                        if(message != testcase.skipped[0].message.toLowerCase()) {
+                            test.stdout.push(testcase.skipped[0].message);
+                            if(testcase.skipped[0].$t) {
+                                test.stdout.push(testcase.skipped[0].$t);
+                            }
+                        }
+                    }
+                    else{
+                        test.stdout = [testcase.skipped[0].message];
+                    }
+                }                
 
                 tests.push(test);
 
