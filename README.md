@@ -83,7 +83,7 @@ ctrf-converter --testFile mytests/nunit.xml --testType nunit
 
 - `reportDir` - will be created if path does not exist. Only used when saving to file.  
 
-- `reportFile` - JUnit file name. Only used when saving to file.  
+- `reportFile` - CTRF file name. Only used when saving to file.  
 
 - `splitByClassname` - If true splits test cases into multiple test suites by classname.  
   This is useful for test runners that generate tests under a single test suite such as `dotnet test` when using JUnit loggers.  
