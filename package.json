@@ -1,6 +1,6 @@
 {
   "name": "ctrf-converter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Test report files to CTRF JSON converter",
   "homepage": "https://github.com/agracio/ctrf-converter#readme",
   "bugs": {
@@ -32,7 +32,8 @@
     "TRX",
     "MSTest",
     "dotnet",
-    "ctrf"
+    "ctrf",
+    "CTRF"
   ],
   "tags": [
     "JUnit",
@@ -42,19 +43,20 @@
     "TRX",
     "MSTest",
     "dotnet",
-    "ctrf"
+    "ctrf",
+    "CTRF"
   ],
   "dependencies": {
     "junit-converter": "^1.0.7",
-    "yargs": "^18.0.0"
+    "yargs": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^25.9.3",
+    "@types/node": "^26.6.5",
     "ajv": "^8.20.0",
-    "jest": "^30.4.2",
+    "jest": "^30.5.2",
     "jest-expect-message": "^1.1.3",
     "jest-junit": "^17.0.0",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "allowScripts": {
     "ag-node-expat@2.4.6": true,
